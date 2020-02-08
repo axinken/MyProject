@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92E31FA4-E1B5-4D4D-B9CF-00C647F109B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GJ.KunX.LOADUP</RootNamespace>
+    <AssemblyName>GJ.KunX.LOADUP</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\GuanJia\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GJ.APP">
+      <HintPath>..\GuanJia\DLL\GJ.APP.dll</HintPath>
+    </Reference>
+    <Reference Include="GJ.DEV.CARD">
+      <HintPath>..\GuanJia\DLL\GJ.DEV.CARD.dll</HintPath>
+    </Reference>
+    <Reference Include="GJ.PDB">
+      <HintPath>..\GuanJia\DLL\GJ.PDB.dll</HintPath>
+    </Reference>
+    <Reference Include="GJ.PLUGINS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\GuanJia\DLL\GJ.PLUGINS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CGlobalPara.cs" />
+    <Compile Include="CMainWork.cs" />
+    <Compile Include="CPara.cs" />
+    <Compile Include="FrmDogLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDogLock.designer.cs">
+      <DependentUpon>FrmDogLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModel.designer.cs">
+      <DependentUpon>FrmModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrder.Designer.cs">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReport.designer.cs">
+      <DependentUpon>FrmReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSample.designer.cs">
+      <DependentUpon>FrmSample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSnQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSnQuery.designer.cs">
+      <DependentUpon>FrmSnQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSysPara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSysPara.designer.cs">
+      <DependentUpon>FrmSysPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVersion.designer.cs">
+      <DependentUpon>FrmVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYield.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYield.designer.cs">
+      <DependentUpon>FrmYield.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Udc\udcBandFixture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\udcBandFixture.designer.cs">
+      <DependentUpon>udcBandFixture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\udcModelInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\udcModelInfo.designer.cs">
+      <DependentUpon>udcModelInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\udcPreTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\udcPreTest.designer.cs">
+      <DependentUpon>udcPreTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\udcStatFixture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\udcStatFixture.designer.cs">
+      <DependentUpon>udcStatFixture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\udcPassRate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\udcPassRate.Designer.cs">
+      <DependentUpon>udcPassRate.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmDogLock.en.resx">
+      <DependentUpon>FrmDogLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDogLock.resx">
+      <DependentUpon>FrmDogLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.en.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModel.en.resx">
+      <DependentUpon>FrmModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModel.resx">
+      <DependentUpon>FrmModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrder.en.resx">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrder.resx">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReport.en.resx">
+      <DependentUpon>FrmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReport.resx">
+      <DependentUpon>FrmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSample.en.resx">
+      <DependentUpon>FrmSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSample.resx">
+      <DependentUpon>FrmSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSnQuery.en.resx">
+      <DependentUpon>FrmSnQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSnQuery.resx">
+      <DependentUpon>FrmSnQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSysPara.en.resx">
+      <DependentUpon>FrmSysPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSysPara.resx">
+      <DependentUpon>FrmSysPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVersion.en.resx">
+      <DependentUpon>FrmVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVersion.resx">
+      <DependentUpon>FrmVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYield.en.resx">
+      <DependentUpon>FrmYield.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYield.resx">
+      <DependentUpon>FrmYield.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcBandFixture.en.resx">
+      <DependentUpon>udcBandFixture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcBandFixture.resx">
+      <DependentUpon>udcBandFixture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcModelInfo.en.resx">
+      <DependentUpon>udcModelInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcModelInfo.resx">
+      <DependentUpon>udcModelInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcPassRate.en.resx">
+      <DependentUpon>udcPassRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcPreTest.en.resx">
+      <DependentUpon>udcPreTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcPreTest.resx">
+      <DependentUpon>udcPreTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcStatFixture.en.resx">
+      <DependentUpon>udcStatFixture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcStatFixture.resx">
+      <DependentUpon>udcStatFixture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcPassRate.resx">
+      <DependentUpon>udcPassRate.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GJ.USER.APP\GJ.USER.APP\GJ.USER.APP.csproj">
+      <Project>{E8DADD29-91F6-4730-A833-D4B3F5DB7EBC}</Project>
+      <Name>GJ.USER.APP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.COM\GJ.COM\GJ.COM.csproj">
+      <Project>{1366E787-328E-4379-A16B-2DF73F886C9E}</Project>
+      <Name>GJ.COM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.DEV.BARCODE\GJ.DEV.BARCODE\GJ.DEV.BARCODE.csproj">
+      <Project>{233E801D-180C-4B7B-8057-9AA0A874F7F9}</Project>
+      <Name>GJ.DEV.BARCODE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.DEV.PLC\GJ.DEV.PLC\GJ.DEV.PLC.csproj">
+      <Project>{5008C5B8-2E4F-44E4-8309-34E7FC4E4B5C}</Project>
+      <Name>GJ.DEV.PLC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.DEV\GJ.DEV\GJ.DEV.csproj">
+      <Project>{E642316B-31E9-45A6-8364-3605EFD3E3D4}</Project>
+      <Name>GJ.DEV</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.Iot\GJ.Iot.csproj">
+      <Project>{17688E09-BB69-4597-828B-3A903FB59F62}</Project>
+      <Name>GJ.Iot</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.MES\GJ.MES\GJ.MES.csproj">
+      <Project>{105487E0-5882-419B-A6EB-E1DB71CF9C7F}</Project>
+      <Name>GJ.MES</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.SFCS\GJ.SFCS.csproj">
+      <Project>{25318508-2556-439E-81EB-C582DE681CB5}</Project>
+      <Name>GJ.SFCS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.UI\GJ.UI.csproj">
+      <Project>{6A2F34CF-C099-4A9B-942F-A46994D1924B}</Project>
+      <Name>GJ.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

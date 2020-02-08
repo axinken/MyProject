@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<CSysPara xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Dev>
+    <SerIP>192.168.3.132</SerIP>
+    <SerPort>8000</SerPort>
+    <SerStat>ATE</SerStat>
+    <TcpMode>1</TcpMode>
+    <ChkIoEnable>false</ChkIoEnable>
+    <IoCom>COM1</IoCom>
+    <IoDelayMs>100</IoDelayMs>
+    <InternalTime>500</InternalTime>
+    <Ate_Languge>0</Ate_Languge>
+    <DevMax>1</DevMax>
+    <ChanMax>16</ChanMax>
+  </Dev>
+  <Para>
+    <Ate_Title_Name>Chroma 8020 IDE - [Execution Control]</Ate_Title_Name>
+    <Ate_Result_Folder>C:\Program Files\Chroma\Chroma 8020\Log</Ate_Result_Folder>
+    <Ate_ScanSn_Name>BarCode Reader</Ate_ScanSn_Name>
+    <Ate_scanSn_Enable>false</Ate_scanSn_Enable>
+    <Ate_Mon>200</Ate_Mon>
+    <Ate_Result_Delay>100</Ate_Result_Delay>
+    <Ate_Result_Repeats>3</Ate_Result_Repeats>
+    <Ate_getImg_handler>false</Ate_getImg_handler>
+    <FailNumLock>0</FailNumLock>
+    <ATE_TestData>false</ATE_TestData>
+  </Para>
+  <Report>
+    <ModelPath>D:\Model</ModelPath>
+    <SaveReport>false</SaveReport>
+    <SaveReportTimes>1</SaveReportTimes>
+    <ReportPath>D:\Report</ReportPath>
+  </Report>
+  <Mes>
+    <ChkWebSn>0</ChkWebSn>
+    <Connect>false</Connect>
+    <FailNoTranNum>0</FailNoTranNum>
+  </Mes>
+</CSysPara>

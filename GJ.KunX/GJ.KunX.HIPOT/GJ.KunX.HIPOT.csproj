@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D3776E45-E1C4-4570-894F-4CBDF3C80BBD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GJ.KunX.HIPOT</RootNamespace>
+    <AssemblyName>GJ.KunX.HIPOT</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\GuanJia\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GJ.APP">
+      <HintPath>..\GuanJia\DLL\GJ.APP.dll</HintPath>
+    </Reference>
+    <Reference Include="GJ.PDB, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\GuanJia\DLL\GJ.PDB.dll</HintPath>
+    </Reference>
+    <Reference Include="GJ.PLUGINS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\GuanJia\DLL\GJ.PLUGINS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CGlobalPara.cs" />
+    <Compile Include="CMainWork.cs" />
+    <Compile Include="CPara.cs" />
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModel.Designer.cs">
+      <DependentUpon>FrmModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReport.designer.cs">
+      <DependentUpon>FrmReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSample.designer.cs">
+      <DependentUpon>FrmSample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSnQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSnQuery.designer.cs">
+      <DependentUpon>FrmSnQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSysPara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSysPara.designer.cs">
+      <DependentUpon>FrmSysPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVersion.Designer.cs">
+      <DependentUpon>FrmVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYield.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYield.designer.cs">
+      <DependentUpon>FrmYield.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\udcHPChan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\udcHPChan.designer.cs">
+      <DependentUpon>udcHPChan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\udcHPData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\udcHPData.designer.cs">
+      <DependentUpon>udcHPData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\udcHPInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\udcHPInfo.designer.cs">
+      <DependentUpon>udcHPInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\udcHPPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\udcHPPara.designer.cs">
+      <DependentUpon>udcHPPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\udcHPResult.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\udcHPResult.designer.cs">
+      <DependentUpon>udcHPResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\udcTcpRecv.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\udcTcpRecv.designer.cs">
+      <DependentUpon>udcTcpRecv.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmMain.en.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModel.en.resx">
+      <DependentUpon>FrmModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModel.resx">
+      <DependentUpon>FrmModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReport.en.resx">
+      <DependentUpon>FrmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReport.resx">
+      <DependentUpon>FrmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSample.en.resx">
+      <DependentUpon>FrmSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSample.resx">
+      <DependentUpon>FrmSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSnQuery.en.resx">
+      <DependentUpon>FrmSnQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSnQuery.resx">
+      <DependentUpon>FrmSnQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSysPara.en.resx">
+      <DependentUpon>FrmSysPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSysPara.resx">
+      <DependentUpon>FrmSysPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVersion.en.resx">
+      <DependentUpon>FrmVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVersion.resx">
+      <DependentUpon>FrmVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYield.en.resx">
+      <DependentUpon>FrmYield.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYield.resx">
+      <DependentUpon>FrmYield.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcHPChan.en.resx">
+      <DependentUpon>udcHPChan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcHPChan.resx">
+      <DependentUpon>udcHPChan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcHPData.resx">
+      <DependentUpon>udcHPData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcHPInfo.en.resx">
+      <DependentUpon>udcHPInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcHPInfo.resx">
+      <DependentUpon>udcHPInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcHPPara.en.resx">
+      <DependentUpon>udcHPPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcHPPara.resx">
+      <DependentUpon>udcHPPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcHPResult.en.resx">
+      <DependentUpon>udcHPResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcHPResult.resx">
+      <DependentUpon>udcHPResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcTcpRecv.en.resx">
+      <DependentUpon>udcTcpRecv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcTcpRecv.resx">
+      <DependentUpon>udcTcpRecv.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GJ.USER.APP\GJ.USER.APP\GJ.USER.APP.csproj">
+      <Project>{E8DADD29-91F6-4730-A833-D4B3F5DB7EBC}</Project>
+      <Name>GJ.USER.APP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.COM\GJ.COM\GJ.COM.csproj">
+      <Project>{1366E787-328E-4379-A16B-2DF73F886C9E}</Project>
+      <Name>GJ.COM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.DEV.COM\GJ.DEV.COM\GJ.DEV.COM.csproj">
+      <Project>{116D52F1-D3A4-4CAF-8DE1-7CFFAE2F69D9}</Project>
+      <Name>GJ.DEV.COM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.DEV.HIPOT\GJ.DEV.HIPOT\GJ.DEV.HIPOT.csproj">
+      <Project>{3AA95A58-2B92-493E-8A96-99E4A595984A}</Project>
+      <Name>GJ.DEV.HIPOT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.DEV\GJ.DEV\GJ.DEV.csproj">
+      <Project>{E642316B-31E9-45A6-8364-3605EFD3E3D4}</Project>
+      <Name>GJ.DEV</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.Iot\GJ.Iot.csproj">
+      <Project>{17688E09-BB69-4597-828B-3A903FB59F62}</Project>
+      <Name>GJ.Iot</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.MES\GJ.MES\GJ.MES.csproj">
+      <Project>{105487E0-5882-419B-A6EB-E1DB71CF9C7F}</Project>
+      <Name>GJ.MES</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.SFCS\GJ.SFCS.csproj">
+      <Project>{25318508-2556-439E-81EB-C582DE681CB5}</Project>
+      <Name>GJ.SFCS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.TOOL\GJ.TOOL\GJ.TOOL.csproj">
+      <Project>{4AD6CE2F-AEAA-45DB-86B7-229AEF310A9C}</Project>
+      <Name>GJ.TOOL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Import\GJ.UI\GJ.UI.csproj">
+      <Project>{6A2F34CF-C099-4A9B-942F-A46994D1924B}</Project>
+      <Name>GJ.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

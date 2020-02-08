@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 15pt, style=Bold</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>General Information</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 28</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Model Name:</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 28</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Custom:</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 28</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="txtModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 4</value>
+  </data>
+  <data name="txtModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 21</value>
+  </data>
+  <data name="txtCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 33</value>
+  </data>
+  <data name="txtCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 21</value>
+  </data>
+  <data name="txtVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 62</value>
+  </data>
+  <data name="txtVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 21</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 28</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Publisher:</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 28</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Release Date:</value>
+  </data>
+  <data name="txtReleaseName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 91</value>
+  </data>
+  <data name="txtReleaseName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 21</value>
+  </data>
+  <data name="pickerDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 120</value>
+  </data>
+  <data name="pickerDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 21</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 27</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Device File Name:</value>
+  </data>
+  <data name="txtHPModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 149</value>
+  </data>
+  <data name="txtHPModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 21</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 15pt, style=Bold</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Hipot instrument channel Settings</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 15pt, style=Bold</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>The system test items</value>
+  </data>
+  <data name="labStep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 15pt, style=Bold</value>
+  </data>
+  <data name="labStep.Text" xml:space="preserve">
+    <value>Test step parameter Settings</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 15pt, style=Bold</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Test steps set</value>
+  </data>
+  <data name="btnNew.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADOSURBVDhPldJBCoJAFIDhOUhn6CgdqCt0jbbtWrmpRQRB
+        VGBhhQykaJikoqBhwounTkTNjK8HD0Hn/2BAJmY4GgNl2+O/gx+7Bs/0+gM50gVUVVUDE2MnR3QAxnlR
+        1gD3YjmiAkQcJ/n7CmLbtBkZ8BkHYQqOH9WIgNq0mW9AFtuXGxzsazegi7eWqwce5RPSrIAwysALEuDu
+        HY48APPkwXrvwHLD1QAlnq/OaoASGwtLDVDi6cxUA5QYfyIlQIm1AMb4pKwUwJf/LGOMvQDLSYClCWmj
+        5QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnNew.Text" xml:space="preserve">
+    <value>New(&amp;N)</value>
+  </data>
+  <data name="btnOpen.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEpSURBVDhPYyAayDT8h2OSAVCTatgasEYwDTMERjdWZv9H
+        xmBBPABuCAiDNHz7VI2CCRoC1JjRfweHAR/K/3+74IniImQMtxmGQYLomvFhsCHIAG4AAZuxYYQBIM0v
+        c8CCZ7ZE/P920ef/98s+QNrr/+fTzv8/HLX5/3a/6f9Xu/T+P92g/H9/BdP/clcGJAOAmmG2Pz8eAtEM
+        5H8+5fT//RFroGaT/6926P5/vkXj/93FMgjNIAA24GESWPPJjZEIm+GagTZDNT9dq4hqOwiADYDbHvz/
+        y3kPoLMxbQZpfrBQDFUzCIA0gvCRtbFAzW7/P510AGq2+v96j/H/l9t1/j/fqPb/6RrF/4+WyWDaDgJw
+        A7pEwArwYQzNIADSDJIgFkO1DRrAwAAA5xWW+kYiZYMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 39</value>
+  </data>
+  <data name="btnOpen.Text" xml:space="preserve">
+    <value>Open(&amp;O)</value>
+  </data>
+  <data name="btnSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFhSURBVDhPYwCBkPAD/8nFcANWbXj939Fjx39c4Mu33/9f
+        vv32/97jD2B1OQU7/ktrBRFnALLmK3cg6oDaiDMAXfOpq8/A6irrjxA2AJvmg+cegdUR9AIuzTuO3QOr
+        S8nYiNsAfJrX778JVhcVtwq7Ae8//fj/+OXn/zcfvPt//ubL/8cuPv2/59SD/1sO3fm/evcNMAapCwxd
+        iGkAzBBCGKTZw2cmpgFLVz//P2fhg/8Tp1//39F3/n998/H/pVUHwAEG8jPI2b4B8/67uE/7b2Pfh2oA
+        Ns0FpXv+Z+Rs/R+XsvZ/WNQyFM0mZu2oBkybc+t/z6TL//UdwvBimGYdvXpUA0CamztOgxUBhf7zCiuA
+        Y+Tl2y/gmAAFnk90MVyzhnY1qgEgzaDUBTKAm1/qv66ZC9gAGAAZAjIAphnDAJBmkJ9BBkybt/7/0lVb
+        gAG7GwWDDIBpRjEABEAc0nHQfwC/X4PrQNLFUgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save(&amp;S)</value>
+  </data>
+  <data name="btnExit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFqSURBVDhPY8AFfEPn/Hd1LQdjqBBxAKbRP2j7/6DQLf9l
+        ZHyJMwBZo0/Arv/BEYf+u/msBBsAcwk2DNYMYkTH3kLBEVGX/7t4QgxIW//tf/fcuf+/beEF4y9LBf+X
+        V7xGuA5mQEzcHbjm8KgL/509l8INgBkC0vytXwy7ATCNIRGn/weEHMIwAO4SbAYgaw4OP4nTABjGMADZ
+        ZhAGBaST5wKwIrG0UMIGwGwFhf68BVfBUejgOg+siM2P/b9wevF/zb5j/7ki5cE0hgEwm0Ga3779A6at
+        HHrBilg8Gf8zOTD85wwT+y9SxP5fLEYa0wCQk0EYZDNIs5Nr039L+06wIpBmBjMGMM2fxoLbAC+/bWAM
+        crq985z/Nk6TIIqMgAZAMcg1goESmAbANIMSDwg7uS/BagAIczliiUZzmx6wRlDUgTSDXAEzAKQYG4Yb
+        AAIgQ0ACIAwyDKQZFoj4MFQ7KgAFIEFFYMDAAADTpbp6EnyvjQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnExit.Text" xml:space="preserve">
+    <value>Exit(&amp;E)</value>
+  </data>
+</root>

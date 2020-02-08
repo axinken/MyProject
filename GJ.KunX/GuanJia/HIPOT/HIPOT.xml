@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<CSysPara xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Dev>
+    <SerIP>192.168.3.132</SerIP>
+    <SerPort>8000</SerPort>
+    <SerStat>HIPOT</SerStat>
+    <TcpMode>1</TcpMode>
+    <HPCom>
+      <string>COM1</string>
+      <string>COM4</string>
+    </HPCom>
+    <ChkIoEnable>true</ChkIoEnable>
+    <IoCom>COM7</IoCom>
+    <MonInterval>500</MonInterval>
+    <IoDelayMs>500</IoDelayMs>
+    <HPType>Chroma19020</HPType>
+    <HPBaud>9600,N,8,1</HPBaud>
+    <HPChanMax>8</HPChanMax>
+    <HPDevMax>1</HPDevMax>
+  </Dev>
+  <Para>
+    <ChkAutoModel>false</ChkAutoModel>
+    <ChkImpPrg>false</ChkImpPrg>
+    <ChkReTest>false</ChkReTest>
+  </Para>
+  <Report>
+    <ModelPath>D:\Model</ModelPath>
+    <SaveReport>true</SaveReport>
+    <SaveReportTimes>1</SaveReportTimes>
+    <ReportPath>D:\Report</ReportPath>
+  </Report>
+  <Mes>
+    <ChkWebSn>0</ChkWebSn>
+    <Connect>false</Connect>
+    <FailNoTranNum>0</FailNoTranNum>
+  </Mes>
+</CSysPara>

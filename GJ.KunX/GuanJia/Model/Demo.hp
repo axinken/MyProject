@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<CModelPara xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Base>
+    <Model>Demo</Model>
+    <Custom />
+    <Version />
+    <ReleaseName />
+    <ReleaseDate>2018/11/14 0:00:00</ReleaseDate>
+    <HPModel />
+  </Base>
+  <Para>
+    <HpCH>
+      <int>1</int>
+      <int>2</int>
+      <int>3</int>
+      <int>4</int>
+      <int>5</int>
+      <int>6</int>
+      <int>7</int>
+      <int>8</int>
+      <int>1</int>
+      <int>2</int>
+      <int>3</int>
+      <int>4</int>
+      <int>5</int>
+      <int>6</int>
+      <int>7</int>
+      <int>8</int>
+    </HpCH>
+    <IoCH>
+      <int>1</int>
+      <int>2</int>
+      <int>3</int>
+      <int>4</int>
+      <int>5</int>
+      <int>6</int>
+      <int>7</int>
+      <int>8</int>
+      <int>9</int>
+      <int>10</int>
+      <int>11</int>
+      <int>12</int>
+      <int>13</int>
+      <int>14</int>
+      <int>15</int>
+      <int>16</int>
+    </IoCH>
+    <Step>
+      <CStep>
+        <stepNo>0</stepNo>
+        <name>AC</name>
+        <des>交流电压耐压(AC)测试</des>
+        <para>
+          <CItem>
+            <name>VOLTAGE</name>
+            <setVal>3.3</setVal>
+            <unitDes>kV(0.05-5kV)</unitDes>
+          </CItem>
+          <CItem>
+            <name>HIGHT LIMIT</name>
+            <setVal>1</setVal>
+            <unitDes>mA(0.001-10mA)</unitDes>
+          </CItem>
+          <CItem>
+            <name>LOW LIMIT</name>
+            <setVal>0.1</setVal>
+            <unitDes>mA(0-10mA)</unitDes>
+          </CItem>
+          <CItem>
+            <name>ARC LIMIT</name>
+            <setVal>0</setVal>
+            <unitDes>mA(0,1-20mA)</unitDes>
+          </CItem>
+          <CItem>
+            <name>RAMP TIME</name>
+            <setVal>0</setVal>
+            <unitDes>s(0,0.1-999.9s)</unitDes>
+          </CItem>
+          <CItem>
+            <name>TEST TIME</name>
+            <setVal>0</setVal>
+            <unitDes>s(0,0.03-999.9s)</unitDes>
+          </CItem>
+          <CItem>
+            <name>FALL TIME</name>
+            <setVal>3</setVal>
+            <unitDes>s(0,0.1-999.9s)</unitDes>
+          </CItem>
+        </para>
+      </CStep>
+    </Step>
+  </Para>
+</CModelPara>

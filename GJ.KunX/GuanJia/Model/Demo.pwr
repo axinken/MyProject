@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<CModelPara xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Base>
+    <Model>Demo</Model>
+    <Custom />
+    <Version />
+    <ReleaseName />
+    <ReleaseDate>2018/7/27 上午 12:00:00</ReleaseDate>
+  </Base>
+  <OutPut>
+    <ACVolt>220</ACVolt>
+    <ACvMin>0</ACvMin>
+    <ACvMax>0</ACvMax>
+    <Vname>+5V</Vname>
+    <Vmin>0</Vmin>
+    <Vmax>0</Vmax>
+    <LoadMode>0</LoadMode>
+    <LoadSet>2</LoadSet>
+    <LoadMin>0</LoadMin>
+    <LoadMax>0</LoadMax>
+    <QCM>2</QCM>
+    <QCV>5</QCV>
+    <ChkDD>true</ChkDD>
+  </OutPut>
+</CModelPara>

@@ -1,0 +1,12 @@
+﻿<Device Name="DebugTool">
+   <IDCard Name="读卡器">1</IDCard> 
+   <ComPLC Name="PLC设备">1</ComPLC>
+   <FCMB Name="快充控制板">1</FCMB>
+   <LED Name="DA回馈负载">1</LED>
+   <BarCode Name="条码枪">1</BarCode>
+   <RemoteIO Name="远程IO板">1</RemoteIO>
+   <Meter Name="AC电表">1</Meter>
+   <ELOAD Name="电子负载">0</ELOAD>
+   <Web2 Name="冠佳MES">0</Web2>
+   <MQTT Name="物联网Iot">0</MQTT>
+</Device>
