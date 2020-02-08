@@ -1,0 +1,2049 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labNo1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cmbIOChan2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="labSlot14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan7.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="cmbHpChan11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 91</value>
+  </data>
+  <data name="labSlot14.Text" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="labHpId4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmbHpChan14.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="labSlot6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labHpId1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSlot8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan8.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan14.Name" xml:space="preserve">
+    <value>cmbIOChan14</value>
+  </data>
+  <data name="&gt;&gt;labSlot11.Name" xml:space="preserve">
+    <value>labSlot11</value>
+  </data>
+  <data name="&gt;&gt;labSlot6.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="labSlot7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labSlot6.Name" xml:space="preserve">
+    <value>labSlot6</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan9.Name" xml:space="preserve">
+    <value>cmbHpChan9</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan4.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labHpId4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbIOChan3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 91</value>
+  </data>
+  <data name="labId1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labSlot11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="labSlot4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan9.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="labSlot10.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="labSlot15.Text" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labSlot4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbIOChan13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="labSlot9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labSlot2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbUUTNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 20</value>
+  </data>
+  <data name="&gt;&gt;labId1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labId1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="labSlot5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labNo4.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="labSlot6.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;labSlot15.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="labNo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot4.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan12.Name" xml:space="preserve">
+    <value>cmbHpChan12</value>
+  </data>
+  <data name="labId1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="labId3.Text" xml:space="preserve">
+    <value>I/O</value>
+  </data>
+  <data name="&gt;&gt;labSlot14.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="labSlot4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 117</value>
+  </data>
+  <data name="cmbHpChan8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan6.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan16.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan3.Name" xml:space="preserve">
+    <value>cmbIOChan3</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan8.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labId4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 4</value>
+  </data>
+  <data name="splitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="cmbIOChan15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="labSlot9.Text" xml:space="preserve">
+    <value>09</value>
+  </data>
+  <data name="labNo1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labHpId2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSlot9.Name" xml:space="preserve">
+    <value>labSlot9</value>
+  </data>
+  <data name="cmbHpChan4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan15.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="cmbIOChan1.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="labHpId3.Text" xml:space="preserve">
+    <value>H/P</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot1.Text" xml:space="preserve">
+    <value>01</value>
+  </data>
+  <data name="labId4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="labNo3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 30</value>
+  </data>
+  <data name="cmbIOChan14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan4.Name" xml:space="preserve">
+    <value>cmbIOChan4</value>
+  </data>
+  <data name="cmbHpChan8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 120</value>
+  </data>
+  <data name="&gt;&gt;labHpId3.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="labId3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="labSlot7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan7.Name" xml:space="preserve">
+    <value>cmbIOChan7</value>
+  </data>
+  <data name="labSlot10.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="labSlot9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbIOChan2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 62</value>
+  </data>
+  <data name="cmbHpChan4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan14.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="cmbHpChan14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="cmbUUTNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 3</value>
+  </data>
+  <data name="labHpId3.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="labSlot12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="cmbIOChan12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbUUTNum.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labSlot7.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="labNo2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmbHpChan12.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="labSlot2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labNo1.Name" xml:space="preserve">
+    <value>labNo1</value>
+  </data>
+  <data name="&gt;&gt;labNo3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan5.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="labSlot15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbHpChan1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labNo4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbHpChan11.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="&gt;&gt;labNo2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labHpId1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbHpChan10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan5.Name" xml:space="preserve">
+    <value>cmbHpChan5</value>
+  </data>
+  <data name="&gt;&gt;labSlot10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot11.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbUUTNum" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,112,Absolute,104,Percent,100" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="labHpId1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan11.Name" xml:space="preserve">
+    <value>cmbIOChan11</value>
+  </data>
+  <data name="labSlot8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 117</value>
+  </data>
+  <data name="cmbIOChan10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbHpChan13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labSlot1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labHpId2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot5.Text" xml:space="preserve">
+    <value>05</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan2.Name" xml:space="preserve">
+    <value>cmbIOChan2</value>
+  </data>
+  <data name="&gt;&gt;labSlot9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labHpId1.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="labNo1.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="cmbIOChan12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 120</value>
+  </data>
+  <data name="cmbIOChan5.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="cmbIOChan2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labSlot16.Text" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="labNo4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 4</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan11.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan1.Name" xml:space="preserve">
+    <value>cmbIOChan1</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan10.Name" xml:space="preserve">
+    <value>cmbIOChan10</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labSlot9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 30</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan9.Name" xml:space="preserve">
+    <value>cmbIOChan9</value>
+  </data>
+  <data name="&gt;&gt;labSlot16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSlot9.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cmbIOChan12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;labSlot4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbHpChan13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="cmbHpChan7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labId2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan13.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="labNo2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labSlot6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labSlot9.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;labSlot13.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="labSlot4.Text" xml:space="preserve">
+    <value>04</value>
+  </data>
+  <data name="&gt;&gt;labSlot7.Name" xml:space="preserve">
+    <value>labSlot7</value>
+  </data>
+  <data name="labSlot14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan8.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan10.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="cmbHpChan6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labSlot6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 59</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbHpChan3.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="labSlot8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labSlot7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labSlot12.Name" xml:space="preserve">
+    <value>labSlot12</value>
+  </data>
+  <data name="&gt;&gt;labId3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan9.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labSlot13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbHpChan11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labHpId4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labSlot3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSlot11.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan12.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="labSlot3.Text" xml:space="preserve">
+    <value>03</value>
+  </data>
+  <data name="&gt;&gt;labSlot6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbIOChan6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 62</value>
+  </data>
+  <data name="&gt;&gt;labSlot5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;labHpId2.Name" xml:space="preserve">
+    <value>labHpId2</value>
+  </data>
+  <data name="labSlot14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan9.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="labNo3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labNo2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 4</value>
+  </data>
+  <data name="labSlot3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labSlot4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="cmbIOChan7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labSlot1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labHpId4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labId4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labId4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="cmbIOChan16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbIOChan8.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="labNo2.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="cmbHpChan6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="labHpId1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 4</value>
+  </data>
+  <data name="&gt;&gt;cmbUUTNum.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan14.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbIOChan16.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="cmbIOChan1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;labSlot2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labSlot13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labSlot11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 88</value>
+  </data>
+  <data name="cmbIOChan11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 91</value>
+  </data>
+  <data name="&gt;&gt;labSlot14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="labSlot8.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cmbHpChan10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labHpId2.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="labId2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labNo1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbHpChan4.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="cmbHpChan2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 62</value>
+  </data>
+  <data name="cmbIOChan10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 62</value>
+  </data>
+  <data name="labHpId2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan3.Name" xml:space="preserve">
+    <value>cmbHpChan3</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbIOChan3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="labNo3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 4</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan6.Name" xml:space="preserve">
+    <value>cmbHpChan6</value>
+  </data>
+  <data name="labHpId1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="labSlot16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labHpId3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labSlot12.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labId4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 19</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan5.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbIOChan8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="labSlot5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labHpId3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="labSlot3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="&gt;&gt;labId2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbHpChan10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 62</value>
+  </data>
+  <data name="cmbHpChan16.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="labSlot12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 117</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labNo1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan11.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbIOChan13.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="cmbIOChan9.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;labId4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labSlot13.Text" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="labHpId2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labNo3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labId4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbHpChan7.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;labId1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbIOChan13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 33</value>
+  </data>
+  <data name="labHpId2.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;labId3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labId3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labSlot9.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="labHpId3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labNo2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labNo4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot12.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan10.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan8.Name" xml:space="preserve">
+    <value>cmbHpChan8</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>治具产品数量:</value>
+  </data>
+  <data name="labSlot13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 30</value>
+  </data>
+  <data name="&gt;&gt;labNo4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labSlot10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="labSlot5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="cmbIOChan7.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="cmbHpChan2.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="labHpId4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="labSlot2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;labId2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSlot7.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;labId1.Name" xml:space="preserve">
+    <value>labId1</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan14.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labSlot15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labId1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labNo1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbHpChan12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 120</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan16.Name" xml:space="preserve">
+    <value>cmbHpChan16</value>
+  </data>
+  <data name="cmbIOChan11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="labSlot11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="cmbHpChan3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;labSlot12.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;labSlot1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>udcHPChan</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbIOChan2.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="labHpId1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labSlot11.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="cmbHpChan16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labSlot5.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cmbHpChan8.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="cmbHpChan6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 62</value>
+  </data>
+  <data name="cmbHpChan2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labSlot16.Name" xml:space="preserve">
+    <value>labSlot16</value>
+  </data>
+  <data name="labHpId2.Text" xml:space="preserve">
+    <value>H/P</value>
+  </data>
+  <data name="cmbHpChan1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan2.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="labSlot1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan14.Name" xml:space="preserve">
+    <value>cmbHpChan14</value>
+  </data>
+  <data name="labSlot16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSlot7.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbIOChan14.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan13.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;labNo3.Name" xml:space="preserve">
+    <value>labNo3</value>
+  </data>
+  <data name="labId3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="labSlot2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbIOChan14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan11.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="labSlot4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbIOChan13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labSlot8.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbIOChan11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 215</value>
+  </data>
+  <data name="labNo4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="labHpId1.Text" xml:space="preserve">
+    <value>H/P</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan15.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labSlot7.Text" xml:space="preserve">
+    <value>07</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan11.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labSlot5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbHpChan5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 33</value>
+  </data>
+  <data name="&gt;&gt;labSlot4.Name" xml:space="preserve">
+    <value>labSlot4</value>
+  </data>
+  <data name="cmbIOChan15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbHpChan2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan12.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;labSlot5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbHpChan15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labNo3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 215</value>
+  </data>
+  <data name="&gt;&gt;labSlot3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;labSlot10.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labHpId3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 4</value>
+  </data>
+  <data name="labHpId1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan3.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan13.Name" xml:space="preserve">
+    <value>cmbHpChan13</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan10.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labSlot12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labHpId2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbHpChan7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labHpId1.Name" xml:space="preserve">
+    <value>labHpId1</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan4.Name" xml:space="preserve">
+    <value>cmbHpChan4</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot6.Text" xml:space="preserve">
+    <value>06</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="cmbHpChan6.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="labNo3.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan15.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labId4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labSlot13.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="labSlot16.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;labSlot14.Name" xml:space="preserve">
+    <value>labSlot14</value>
+  </data>
+  <data name="labId2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labSlot10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labNo2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labSlot16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 117</value>
+  </data>
+  <data name="&gt;&gt;labSlot11.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="cmbIOChan12.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="labSlot11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labSlot10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labSlot15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 88</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 186</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labNo2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbHpChan7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 91</value>
+  </data>
+  <data name="cmbIOChan6.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;labId2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbIOChan3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSlot13.Name" xml:space="preserve">
+    <value>labSlot13</value>
+  </data>
+  <data name="&gt;&gt;labSlot16.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labHpId2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;labId1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbHpChan9.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="labId4.Text" xml:space="preserve">
+    <value>I/O</value>
+  </data>
+  <data name="labSlot15.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labSlot1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan15.Name" xml:space="preserve">
+    <value>cmbHpChan15</value>
+  </data>
+  <data name="labSlot7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="labSlot2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labSlot16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labNo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 22</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot2.Text" xml:space="preserve">
+    <value>02</value>
+  </data>
+  <data name="cmbIOChan15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 91</value>
+  </data>
+  <data name="labSlot3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="cmbHpChan15.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="labNo4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan16.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="cmbHpChan10.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="labId2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan2.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="cmbIOChan1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 33</value>
+  </data>
+  <data name="labId2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="labId1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbHpChan12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="labSlot16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="cmbHpChan12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbIOChan4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;labSlot1.Name" xml:space="preserve">
+    <value>labSlot1</value>
+  </data>
+  <data name="labSlot1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="&gt;&gt;labSlot2.Name" xml:space="preserve">
+    <value>labSlot2</value>
+  </data>
+  <data name="&gt;&gt;cmbUUTNum.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbIOChan5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 33</value>
+  </data>
+  <data name="cmbHpChan5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labSlot13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labId2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labSlot13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="&gt;&gt;labId3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbHpChan9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 33</value>
+  </data>
+  <data name="panel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="labNo1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labId1" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="labNo2" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="labId2" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="labNo3" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="labId3" Row="0" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="labNo4" Row="0" RowSpan="1" Column="9" ColumnSpan="1" /&gt;&lt;Control Name="labId4" Row="0" RowSpan="1" Column="11" ColumnSpan="1" /&gt;&lt;Control Name="labSlot1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labSlot2" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labSlot3" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labSlot4" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labSlot5" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="labSlot6" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="labSlot7" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="labSlot8" Row="4" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="labSlot9" Row="1" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="labSlot10" Row="2" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="labSlot11" Row="3" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="labSlot12" Row="4" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="labSlot13" Row="1" RowSpan="1" Column="9" ColumnSpan="1" /&gt;&lt;Control Name="labSlot14" Row="2" RowSpan="1" Column="9" ColumnSpan="1" /&gt;&lt;Control Name="labSlot15" Row="3" RowSpan="1" Column="9" ColumnSpan="1" /&gt;&lt;Control Name="labSlot16" Row="4" RowSpan="1" Column="9" ColumnSpan="1" /&gt;&lt;Control Name="labHpId1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="labHpId2" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="labHpId3" Row="0" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="labHpId4" Row="0" RowSpan="1" Column="10" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan1" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan2" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan3" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan4" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan5" Row="1" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan6" Row="2" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan7" Row="3" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan8" Row="4" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan9" Row="1" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan10" Row="2" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan11" Row="3" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan12" Row="4" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan13" Row="1" RowSpan="1" Column="11" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan14" Row="2" RowSpan="1" Column="11" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan15" Row="3" RowSpan="1" Column="11" ColumnSpan="1" /&gt;&lt;Control Name="cmbIOChan16" Row="4" RowSpan="1" Column="11" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan1" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan2" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan3" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan4" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan5" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan6" Row="2" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan7" Row="3" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan8" Row="4" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan9" Row="1" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan10" Row="2" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan11" Row="3" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan12" Row="4" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan13" Row="1" RowSpan="1" Column="10" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan14" Row="2" RowSpan="1" Column="10" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan15" Row="3" RowSpan="1" Column="10" ColumnSpan="1" /&gt;&lt;Control Name="cmbHpChan16" Row="4" RowSpan="1" Column="10" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,30,Percent,12.5,Percent,12.5,Absolute,30,Percent,12.5,Percent,12.5,Absolute,30,Percent,12.5,Percent,12.5,Absolute,30,Percent,12.5,Percent,12.5" /&gt;&lt;Rows Styles="Absolute,30,Absolute,30,Absolute,30,Absolute,30,Absolute,30,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labHpId4.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;labSlot10.Name" xml:space="preserve">
+    <value>labSlot10</value>
+  </data>
+  <data name="&gt;&gt;labId3.Name" xml:space="preserve">
+    <value>labId3</value>
+  </data>
+  <data name="cmbIOChan10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmbIOChan5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labNo4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 22</value>
+  </data>
+  <data name="labSlot8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="labHpId2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 4</value>
+  </data>
+  <data name="panel1.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
+    <value>Single</value>
+  </data>
+  <data name="labNo4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labId3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmbIOChan7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan9.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbHpChan13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 33</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan8.Name" xml:space="preserve">
+    <value>cmbIOChan8</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan7.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labId1.Text" xml:space="preserve">
+    <value>I/O</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan6.Name" xml:space="preserve">
+    <value>cmbIOChan6</value>
+  </data>
+  <data name="cmbIOChan9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbHpChan5.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="cmbIOChan7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 91</value>
+  </data>
+  <data name="labHpId1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labSlot15.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;labSlot7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cmbHpChan9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labNo3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbHpChan13.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;cmbUUTNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labSlot2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="labSlot10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labNo1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbUUTNum.Name" xml:space="preserve">
+    <value>cmbUUTNum</value>
+  </data>
+  <data name="labNo3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbIOChan16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 120</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan5.Name" xml:space="preserve">
+    <value>cmbIOChan5</value>
+  </data>
+  <data name="labId2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 4</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan13.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan16.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="cmbHpChan16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="labSlot14.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbHpChan9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labSlot12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan7.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="labHpId3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;labSlot15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbIOChan6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="labSlot12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmbHpChan5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;labId2.Name" xml:space="preserve">
+    <value>labId2</value>
+  </data>
+  <data name="&gt;&gt;labId4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbHpChan3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labNo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 22</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan12.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="cmbIOChan5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan11.Name" xml:space="preserve">
+    <value>cmbHpChan11</value>
+  </data>
+  <data name="&gt;&gt;labHpId4.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;labSlot12.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;labSlot16.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="cmbIOChan4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 120</value>
+  </data>
+  <data name="labSlot8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labId3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labSlot4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan4.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labId2.Text" xml:space="preserve">
+    <value>I/O</value>
+  </data>
+  <data name="labSlot10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 59</value>
+  </data>
+  <data name="&gt;&gt;labNo4.Name" xml:space="preserve">
+    <value>labNo4</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;labSlot3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labSlot13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labSlot6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="labSlot14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 59</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan15.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan10.Name" xml:space="preserve">
+    <value>cmbHpChan10</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan2.Name" xml:space="preserve">
+    <value>cmbHpChan2</value>
+  </data>
+  <data name="cmbHpChan3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 91</value>
+  </data>
+  <data name="&gt;&gt;labSlot5.Name" xml:space="preserve">
+    <value>labSlot5</value>
+  </data>
+  <data name="&gt;&gt;labSlot6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cmbIOChan3.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="labSlot7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 88</value>
+  </data>
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan1.Name" xml:space="preserve">
+    <value>cmbHpChan1</value>
+  </data>
+  <data name="&gt;&gt;labId4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labHpId4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan7.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labHpId3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan16.Name" xml:space="preserve">
+    <value>cmbIOChan16</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan7.Name" xml:space="preserve">
+    <value>cmbHpChan7</value>
+  </data>
+  <data name="labSlot11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labNo2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labSlot8.Name" xml:space="preserve">
+    <value>labSlot8</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan14.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="labNo3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan6.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="cmbHpChan15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 91</value>
+  </data>
+  <data name="labHpId4.Text" xml:space="preserve">
+    <value>H/P</value>
+  </data>
+  <data name="cmbIOChan9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="cmbIOChan14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 62</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan13.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labId1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbIOChan4.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;labSlot2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="cmbIOChan11.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="cmbIOChan4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labNo4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbHpChan1.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="cmbHpChan14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labSlot3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 88</value>
+  </data>
+  <data name="labHpId4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 4</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan1.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan1.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;labNo1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbHpChan11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labId3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 4</value>
+  </data>
+  <data name="&gt;&gt;labSlot1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labHpId2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan12.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;labSlot14.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbIOChan1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbHpChan1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 33</value>
+  </data>
+  <data name="cmbIOChan15.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;labSlot8.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="labNo4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labHpId4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSlot5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbHpChan14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 62</value>
+  </data>
+  <data name="&gt;&gt;labId4.Name" xml:space="preserve">
+    <value>labId4</value>
+  </data>
+  <data name="&gt;&gt;labSlot15.Name" xml:space="preserve">
+    <value>labSlot15</value>
+  </data>
+  <data name="labSlot12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labHpId3.Name" xml:space="preserve">
+    <value>labHpId3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan16.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 25</value>
+  </data>
+  <data name="cmbIOChan9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 33</value>
+  </data>
+  <data name="cmbIOChan8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 120</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSlot10.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;labHpId4.Name" xml:space="preserve">
+    <value>labHpId4</value>
+  </data>
+  <data name="labNo3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 22</value>
+  </data>
+  <data name="panel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="cmbIOChan8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labSlot2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 59</value>
+  </data>
+  <data name="&gt;&gt;labSlot3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan13.Name" xml:space="preserve">
+    <value>cmbIOChan13</value>
+  </data>
+  <data name="&gt;&gt;labSlot15.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;labHpId1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="labSlot8.Text" xml:space="preserve">
+    <value>08</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="labNo1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan8.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;labSlot13.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cmbIOChan16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="cmbIOChan10.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="labHpId3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbHpChan15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan10.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;labNo2.Name" xml:space="preserve">
+    <value>labNo2</value>
+  </data>
+  <data name="labNo2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="cmbHpChan8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;labSlot3.Name" xml:space="preserve">
+    <value>labSlot3</value>
+  </data>
+  <data name="&gt;&gt;cmbHpChan3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labId1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 4</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan3.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="labHpId3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="labSlot11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan15.Name" xml:space="preserve">
+    <value>cmbIOChan15</value>
+  </data>
+  <data name="labId3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;cmbIOChan12.Name" xml:space="preserve">
+    <value>cmbIOChan12</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbHpChan4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 120</value>
+  </data>
+  <data name="cmbIOChan6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbHpChan16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 120</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+</root>

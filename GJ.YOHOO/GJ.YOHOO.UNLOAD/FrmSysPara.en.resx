@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 33</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>ID COM:</value>
+  </data>
+  <data name="cmbIdCom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 38</value>
+  </data>
+  <data name="cmbIdCom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 33</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>TCP Port:</value>
+  </data>
+  <data name="txtTestPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 72</value>
+  </data>
+  <data name="txtTestPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 33</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>PLC COM:</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 33</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Scan interval(ms):</value>
+  </data>
+  <data name="txtMonDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 208</value>
+  </data>
+  <data name="txtMonDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="txtPlcIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 4</value>
+  </data>
+  <data name="txtPlcIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 33</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Save RFID Mode:</value>
+  </data>
+  <data name="cmbDbMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="cmbDbMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 242</value>
+  </data>
+  <data name="cmbDbMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 24</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 33</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>TCP Protocol:</value>
+  </data>
+  <data name="cmbTcpMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="cmbTcpMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 106</value>
+  </data>
+  <data name="cmbTcpMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 24</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 33</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Number of ATE device:</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmbATEMax.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbATEMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="cmbATEMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 276</value>
+  </data>
+  <data name="cmbATEMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 24</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 33</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>HIPOT TCP Name:</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 33</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>ATE TCP Name:</value>
+  </data>
+  <data name="txtHPTCP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 140</value>
+  </data>
+  <data name="txtHPTCP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="txtATETCP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 174</value>
+  </data>
+  <data name="txtATETCP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>716, 410</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>726, 420</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="chkHPFail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 27</value>
+  </data>
+  <data name="chkHPFail.Text" xml:space="preserve">
+    <value>HIPOT fail confirm</value>
+  </data>
+  <data name="chkATEFail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 27</value>
+  </data>
+  <data name="chkATEFail.Text" xml:space="preserve">
+    <value>ATE fail confirm</value>
+  </data>
+  <data name="chkNoHipot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 4</value>
+  </data>
+  <data name="chkNoHipot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 27</value>
+  </data>
+  <data name="chkNoHipot.Text" xml:space="preserve">
+    <value>HIPOT No Test</value>
+  </data>
+  <data name="chkNoATE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 38</value>
+  </data>
+  <data name="chkNoATE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 27</value>
+  </data>
+  <data name="chkNoATE.Text" xml:space="preserve">
+    <value>ATE No Test</value>
+  </data>
+  <data name="txtLockPwr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 72</value>
+  </data>
+  <data name="txtLockPwr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 23</value>
+  </data>
+  <data name="chkInHipot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 4</value>
+  </data>
+  <data name="chkInHipot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 27</value>
+  </data>
+  <data name="chkInHipot.Text" xml:space="preserve">
+    <value>Force In HIPOT</value>
+  </data>
+  <data name="chkInATE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 38</value>
+  </data>
+  <data name="chkInATE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 27</value>
+  </data>
+  <data name="chkInATE.Text" xml:space="preserve">
+    <value>Force In ATE</value>
+  </data>
+  <data name="chkChangeModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 27</value>
+  </data>
+  <data name="chkChangeModel.Text" xml:space="preserve">
+    <value>Prompt to change Mode</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 33</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Reread RFID Time:</value>
+  </data>
+  <data name="txtIdTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 106</value>
+  </data>
+  <data name="txtIdTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 23</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 33</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Not take Over Fail Number:</value>
+  </data>
+  <data name="txtFailGoNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 174</value>
+  </data>
+  <data name="txtFailGoNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 23</value>
+  </data>
+  <data name="chkLockFail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 27</value>
+  </data>
+  <data name="chkLockFail.Text" xml:space="preserve">
+    <value>HIPOT unlock password:</value>
+  </data>
+  <data name="chkDebugMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 72</value>
+  </data>
+  <data name="chkDebugMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 27</value>
+  </data>
+  <data name="chkDebugMode.Text" xml:space="preserve">
+    <value>Debug station mode</value>
+  </data>
+  <data name="chkATEToWeb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 106</value>
+  </data>
+  <data name="chkATEToWeb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 27</value>
+  </data>
+  <data name="chkATEToWeb.Text" xml:space="preserve">
+    <value>ATE Tran To GJWeb</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>716, 410</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>726, 420</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 33</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Folder of model:</value>
+  </data>
+  <data name="chkSaveReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 27</value>
+  </data>
+  <data name="chkSaveReport.Text" xml:space="preserve">
+    <value>Save test report</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 33</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Save report path:</value>
+  </data>
+  <data name="txtModelPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 4</value>
+  </data>
+  <data name="txtModelPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 23</value>
+  </data>
+  <data name="txtReportPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 72</value>
+  </data>
+  <data name="txtReportPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 23</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Save Interval(Min)</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 35</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 33</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAa
+        EAAAAk1TRnQBSQFMAgEBAwEAASgBAgEoAQIBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEgBgABEBoAAbgBnwGOAf8BDQIAAf8BDQIAAf8BDQIAAf8BDQIAAf8BDQIAAf8BDQIA
+        Af8BDQIAAf8BDQIAAf8BDQIAAf8BDQIAAf8BDQIAAf8BDQIAAf8lAAGcAQEB/wEZAaUBIgH/oAABuAGf
+        AY4B/wHpAd4B2AH/AaQBiwE5Af8BpAGLATkB/wGkAYsBOQH/AaQBiwE5Af8BpAGLATkB/wGkAYsBOQH/
+        AaQBiwE5Af8BpAGLATkB/wGkAYsBOQH/AaQBiwE5Af8BDQIAAf8kAAGEAbUBjAH/AQEBpQERAf8YAAOA
+        Af8BIQJLAf8DgAH/ASECSwH/ASEBKwFLAf8BIQErASEB/wEhAQsBIQH/AQABCwEhAf8BIQIAAf8DAAH/
+        AwAB/wMAAf8DAAH/VAABuAGfAY4B/wHtAeMB3gH/AekB3gHYAf8B5QHZAdMB/wHiAdQBzAH/Ad4BzgHG
+        Af8B2gHJAcAB/wHXAcQBugH/AdMBvwG0Af8B0AG6Aa0B/wHQAboBrQH/AaQBiwE5Af8BDQIAAf8kAAEJ
+        Aa0BGQH/AToB9wGlAf8BCQGtARkB/wE6Aa0BhAH/EAABIQFLAaoB/wGkAqAB/wEhAb8B1AH/AQABSwHU
+        Af8BAAGfAdQB/wEAAUsB1AH/AQABSwHUAf8BAAFLAaoB/wEAAUsBqgH/AQABSwGqAf8BIQFLAaoB/wEA
+        AoAB/wEAAQsBIQH/VAABuAGfAY4B/wHwAekB5QH/Ae0B4wHeAf8B6QHeAdgB/wHlAdkB0wH/AeIB1AHM
+        Af8B3gHOAcYB/wHaAckBwAH/AdcBxAG6Af8B0wG/AbQB/wHQAboBrQH/AaQBiwE5Af8BDQIAAf8kAAEJ
+        AbUBIgH/ATIB9wGcAf8BMgHnAZQB/wEAAYwBAAH/EAADgAH/AaoBvwHUAf8BIQGfAaoB/wEhAd8C/wEh
+        Ab8C/wEhAb8C/wEhAb8C/wEhAb8C/wEhAb8B1AH/AQABnwL/AQABnwHUAf8BAAFLAdQB/wEhASsBSwH/
+        ASEBKwEhAf9QAAG4AZ8BjgH/AfMB7gHrAf8BzAGAAQAB/wHMAYABAAH/AwAB/wGAAgQB/wGAAgQB/wHe
+        Ac4BxgH/AdoByQHAAf8B1wHEAboB/wHTAb8BtAH/AaQBiwE5Af8BDQIAAf8IAAE6AbUBOgH/AQABlAEB
+        Af8UAAGEAbUBjAH/ATIB7wGcAf8BMgH3AZwB/wEqAecBjAH/ASIBpQEiAf8MAAOAAf8BIQHfAv8BpAKg
+        Af8BqgG/AdQB/wEhAd8C/wEhAd8C/wEhAd8C/wEhAb8C/wEhAb8C/wEhAb8C/wEhAb8C/wEAAZ8B1AH/
+        AQABSwHUAf8BAAErASEB/1AAAbgBnwGOAf8B9wHzAfIB/wHzAe4B6wH/AfAB6QHlAf8BuAKAAf8DAAH/
+        AQABgAG4Af8DAAH/Ad4BzgHGAf8B2gHJAcAB/wHXAcQBugH/AaQBiwE5Af8BDQIAAf8IAAE6AbUBOgH/
+        AREBzgEyAf8BAAGcAQkB/wwAARkBpQEiAf8BKgHnAZQB/wEyAe8BnAH/ATIB7wGcAf8BMgH3AZwB/wEB
+        AZQBCQH/DAADgAH/AaoB3wHUAf8BpAKgAf8BIQGfAaoB/wGqAd8C/wEhAb8C/wEhAd8C/wEhAb8C/wEh
+        Ab8C/wEhAb8C/wEhAb8C/wEhAb8C/wEAAZ8C/wEhASsBSwH/ASEBnwGqAf9MAAG4AZ8BjgH/AfsB+gH4
+        Af8BzAGAAQAB/wHMAYABAAH/AbgCgAH/AQABgAG4Af8BAAGsAdUB/wEAAYABuAH/AwAB/wHeAc4BxgH/
+        AdoByQHAAf8BpAGLATkB/wENAgAB/wgAAToBtQE6Af8BEQHOATIB/wERAc4BOgH/AQABnAEJAf8FAAGU
+        AQEB/wEZAc4BOgH/ASoB5wGUAf8BKgHnAZQB/wEyAe8BnAH/ATIB7wGcAf8BAQGUAQkB/wwAASEBnwGq
+        Af8BqgHfAv8BpAKgAf8BqgGfAaoB/wGqAb8B1AH/ASEB3wL/ASEB3wL/ASEB3wL/ASEB3wL/ASEBvwL/
+        ASEBvwL/ASEBvwL/ASEBvwL/AQABnwHUAf8BIQErAUsB/0wAAbgBnwGOBf8B+wH6AfgB/wH3AfMB8gH/
+        AfMB7gHrAf8BAAGAAbgB/wE6AdwB8wH/AQABrAHVAf8BAAGAAbgB/wMAAf8B3gHOAcYB/wGkAYsBOQH/
+        AQ0CAAH/CAABOgG1AToB/wERAc4BMgH/AREBzgEyAf8BEQHGATIB/wEAAYQBAAH/AREBxgEqAf8BIgHe
+        AYwB/wEiAecBjAH/ASoB5wGUAf8BKgHnAZQB/wEqAecBlAH/AQEBlAEJAf8MAAGkAqAB/wGqAd8C/wGq
+        AZ8BSwP/AdQB/wGqAZ8BqgH/ASEB3wL/AaoB3wL/ASEB3wL/AaoB3wL/ASEB3wL/AaoB3wL/ASEB3wL/
+        AaoB3wL/ASEB3wL/ASEBnwHUAf8BpAKgAf9IAAG4AZ8BjgX/AcwBgAEAAf8BzAGAAQAB/wHMAYABAAH/
+        AcwBgAEAAf8BAAGAAbgB/wE6AdwB8wH/AQABrAHVAf8BAAGAAbgB/wMAAf8BpAGLATkB/wENAgAB/wgA
+        AToBtQE6Af8BCQHGASIB/wEJAc4BKgH/AREBzgEyAf8BEQHOAToB/wEZAdYBhAH/ARkB1gGEAf8BIgHe
+        AYwB/wEiAd4BjAH/ASoB5wGUAf8BCQGtARkB/wEiAaUBIgH/DAABpAKgAf8BqgHfAv8BqgGfAaoF/wEh
+        AZ8BqgH/AaoBvwGqAf8BpAKgAf8BIQGfAaoB/wGkAqAB/wEhAZ8BqgH/AaQCoAH/ASEBnwGqAf8DgAH/
+        AaQCoAH/A4AB/wOAAf9IAAG4AZ8Bjg3/A/wB/wH6AfcB9gH/AfYB8AHvAf8BAAGAAbgB/wE6AdwB8wH/
+        AQABrAHVAf8BAAGAAbgB/wMAAf8BDQIAAf8IAAE6AbUBOgH/AQkBxgEiAf8BCQHGASIB/wERAc4BMgH/
+        AREBzgEyAf8BGQHWAYQB/wEZAdYBhAH/ARkB3gGEAf8BIgHeAYwB/wEZAc4BOgH/AQABlAEBAf8QAAEh
+        AZ8BqgH/AaoB3wL/AfABygGmAf8B8AH7A/8B3wHUAv8B3wL/AfAB+wP/Ad8B1AL/AswB/wEhASsBAAL/
+        AUsBIQH/ASEBKwEAAf8BAAFLAQAB/wEAAUsBAAH/ASEBSwEAAf9MAAG4AZ8BjgX/AcwBgAEAAf8BzAGA
+        AQAB/wHMAYABAAH/AcwBgAEAAf8BzAGAAQAB/wHMAYABAAH/AQABgAG4Af8BOgHcAfMB/wEAAawB1QH/
+        AyUB/wIAAYIB/wgAAToBtQE6Af8BAQG9AREB/wEBAcYBGQH/AQkBxgEiAf8BCQHOASoB/wERAc4BMgH/
+        AREBzgE6Af8BGQHWAYQB/wEZAdYBhAH/AQEBlAEJAf8UAAGkAqAB/wGqAd8C/wGqAb8BqgX/AfABygGm
+        Av8BnwFLAf8BqgGfAUsC/wGfAUsC/wHfAdQB/wEhAQsBAAH/AaoBSwEhAf8BIQGfAQAB/wEhAZ8BAAH/
+        ASEBnwEAAf8BIQFLAQAB/0wAAbgBnwGOFf8D/AH/AfoB9wH2Af8B9gHwAe8B/wEAAYABuAH/AcUBpwGX
+        Af8BGwEyAYAB/wIAAYIB/wIAAYIB/wQAAToBtQE6Af8BAQG9AREB/wEBAb0BEQH/AQkBxgEiAf8BCQHG
+        ASIB/wERAc4BMgH/AREBzgEyAf8BEQHWAToB/wEJAbUBIgH/GAABpAKgAf8BqgHfAdQB/wHwAcoBpgH/
+        AfAB+wL/AfAB+wL/AfAB+wL/AfAB+wL/AfAB+wL/AfAB+wL/ASEBCwEAAv8BSwEhAf8BqgGfAQAB/wEh
+        AZ8BAAH/ASEBnwEAAf8BIQG/ASEB/0wAAbgBnwGOGf8D/AH/AfoB9wH2Af8BuAGfAY4B/wIAAfYB/wER
+        AS8B/AH/AgAB9gH/AgABggH/BAABOgG1AToB/wEAAbUBAQH/AQABvQEJAf8BAQG9AREB/wEBAcYBGQH/
+        AQkBxgEiAf8BCQHOASoB/wERAc4BMgH/AREBzgE6Af8BAAGMAQAB/xgAAaQCoAH/AcAB3AHAAf8B8AHK
+        AaYB/wHwAcoBpgH/AfABygGmAf8B8AHKAaYB/wHwAcoBpgH/AfABygGmAf8BqgG/AaoC/wGfASEC/wFL
+        ASEB/wEhAZ8BAAH/ASEBnwEAAf9QAAG4AZ8Bjh3/A/wB/wG4AZ8BjgH/AdABugGtAf8CAAH2Af8CAAH2
+        Af8IAAE6AbUBOgH/AQABtQEBAf8BAAG1AQEB/wEBAb0BEQH/AQEBvQERAf8BCQHGASIB/wEJAcYBIgH/
+        AQkBzgEqAf8BEQHOATIB/wEBAa0BEQH/AQEBlAEJAf8gAAEhAd8BSwH/ASEB3wGqAf8BqgH/AaoB/wHA
+        AdwBwAP/AdQB/wGqAd8BqgH/A4AB/wGqAZ8BIQH/AaoBnwEAAf8BIQG/ASEB/1AAAbgBnwGOIf8BuAGf
+        AY4B/wENAgAB/xAAAToBtQE6Af8BAAGtAQAB/wEAAbUBAAH/AQABtQEBAf8BAAG9AQkB/wEBAb0BEQH/
+        AQEBxgEZAf8BCQHGASIB/wEJAc4BKgH/AREBzgEyAf8BEQHOATIB/wEBAZQBCQH/IAABqgHfAaoB/wHA
+        AdwBwAP/AcwB/wEhAZ8BIQH/AaoB3wFLAf8BIQG/ASEB/wGqAUsBAAL/AZ8BSwH/VAABuAGfAY4B/wG4
+        AZ8BjgH/AbgBnwGOAf8BuAGfAY4B/wG4AZ8BjgH/AbgBnwGOAf8BuAGfAY4B/wG4AZ8BjgH/AbgBnwGO
+        Af8BuAGfAY4B/xQAAToBtQE6Af8BAAGcAQAB/wEAAZwBAAH/AQABnAEAAf8BAAGcAQAB/wEAAaUBAQH/
+        AQABpQEBAf8BAAGlAQkB/wEAAaUBCQH/AQEBrQERAf8BAQGtAREB/wEAAZQBAQH/AQABjAEBAf8kAAHA
+        AdwBwAH/AaoB3wGqAf8BIQHfAUsB/wEhAb8BSwH/VAABQgFNAT4HAAE+AwABKAMAAUADAAEQAwABAQEA
+        AQEFAAGAFwAD/wEAAcABAQH/AT8C/wIAAcABAQH/AT8BAAEHAgABwAEBAf8BDwEAAQcCAAHAAQEB/wEP
+        AQABAwIAAcABAQGfAQcBAAEDAgABwAEBAY4BBwEAAQECAAHAAQEBhAEHAQABAQIAAcABAQGAAQcEAAHA
+        AQEBgAEHBAABwAEBAYABDwEAAQECAAHAAQEBgAEfAQABAQIAAcABAAGAAT8BAAEBAgABwAEAAYABHwGA
+        AQMCAAHAAQEBgAEPAfABAwIAAcABBwGAAQcB+AEHAgABwAEPAYABAwH+AR8CAAs=
+</value>
+  </data>
+  <data name="btnModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 1</value>
+  </data>
+  <data name="btnModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 33</value>
+  </data>
+  <data name="btnModel.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="btnReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 69</value>
+  </data>
+  <data name="btnReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 33</value>
+  </data>
+  <data name="btnReport.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 33</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>daily report path:</value>
+  </data>
+  <data name="txtDailyFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 106</value>
+  </data>
+  <data name="txtDailyFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 23</value>
+  </data>
+  <data name="btnDailyFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 103</value>
+  </data>
+  <data name="btnDailyFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 33</value>
+  </data>
+  <data name="btnDailyFolder.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>716, 410</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>726, 420</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="chkMesCon.Text" xml:space="preserve">
+    <value>MES Connect</value>
+  </data>
+  <data name="chkStatMes.Text" xml:space="preserve">
+    <value>Check Station</value>
+  </data>
+  <data name="chkGJWeb.Text" xml:space="preserve">
+    <value>GJ Web Check</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>716, 411</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>726, 421</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>MES Setting</value>
+  </data>
+  <data name="chkPassRate1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 27</value>
+  </data>
+  <data name="chkPassRate1.Text" xml:space="preserve">
+    <value>Enable Hipot yield warning</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 33</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>Hipot low yield limit(%):</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 33</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>Initial number of Hipot alarm:</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 33</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>The alarm interval(Min):</value>
+  </data>
+  <data name="chkClrDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 27</value>
+  </data>
+  <data name="chkClrDay.Text" xml:space="preserve">
+    <value>Day shift reset time:</value>
+  </data>
+  <data name="chkClrNight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 27</value>
+  </data>
+  <data name="chkClrNight.Text" xml:space="preserve">
+    <value>Night shift reset time:</value>
+  </data>
+  <data name="txtPassRateLimit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 38</value>
+  </data>
+  <data name="txtPassRateLimit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 23</value>
+  </data>
+  <data name="txtStartNumber1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 72</value>
+  </data>
+  <data name="txtStartNumber1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 23</value>
+  </data>
+  <data name="txtPassRateInterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 208</value>
+  </data>
+  <data name="txtPassRateInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 23</value>
+  </data>
+  <data name="txtClrDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 242</value>
+  </data>
+  <data name="txtClrDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 23</value>
+  </data>
+  <data name="txtClrNight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 276</value>
+  </data>
+  <data name="txtClrNight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 23</value>
+  </data>
+  <data name="chkPassRate2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 27</value>
+  </data>
+  <data name="chkPassRate2.Text" xml:space="preserve">
+    <value>Enable ATE yield warning</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 33</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>ATE low yield limit(%):</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 33</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Initial number of ATE alarm:</value>
+  </data>
+  <data name="txtPassRateLimit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 140</value>
+  </data>
+  <data name="txtPassRateLimit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 23</value>
+  </data>
+  <data name="txtStartNumber2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 174</value>
+  </data>
+  <data name="txtStartNumber2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 23</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>716, 411</value>
+  </data>
+  <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>726, 421</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Yield Warn</value>
+  </data>
+  <data name="tabControl1.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>734, 451</value>
+  </data>
+  <data name="btnExit.Text" xml:space="preserve">
+    <value>Exit(&amp;E)</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK(&amp;O)</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>451</value>
+  </data>
+</root>

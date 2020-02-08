@@ -1,0 +1,316 @@
+方式, 事件等级, 事件内容, 地址类型, 触发条件, 恢复条件, 读取地址, 数据类型, 通知触发地址, 循环报警, 报警声, 确认时写入值, 字体, 颜色, 告警延迟时间, 监看地址数
+0, 低, 上机升降机气缸报警，请检查IO 上限X202 下限X203 上升Y200 下降Y201 点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3000:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 上机升降机进治具皮带传动超时报警，请检查IO Y202，点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3001:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 上机升降机出治具皮带传动超时报警，请检查IO Y203，点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3002:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 初测位产品测试结果为全盘不良品，请人工确认后把治具拿走，点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3003:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event4, BIT, ON, 默认, Burnin_Roon.Q_8bit(3004:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event5, BIT, ON, 默认, Burnin_Roon.Q_8bit(3005:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event6, BIT, ON, 默认, Burnin_Roon.Q_8bit(3006:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event7, BIT, ON, 默认, Burnin_Roon.Q_8bit(3007:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event8, BIT, ON, 默认, Burnin_Roon.Q_8bit(3008:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event9, BIT, ON, 默认, Burnin_Roon.Q_8bit(3009:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 人工第1工位ID读取结果失败，请把治具移开重新进机, BIT, ON, 默认, Burnin_Roon.Q_8bit(3010:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 上机扫条码位ID读取失败，请把治具移开重新进机, BIT, ON, 默认, Burnin_Roon.Q_8bit(3011:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 自动扫条码工位ID读取失败，请点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3012:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, EVENT13, BIT, ON, 默认, Burnin_Roon.Q_8bit(3013:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 初测位ID卡读取失败，请把治具移开点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3014:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 初测后缓冲位ID读取失败，，请把治具移开点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3015:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 老化入口平台1ID读取失败，请把治具拿走，点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3016:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 老化入口平台2ID读取失败，请把治具拿走，点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3017:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 自动扫条码工位当前产品条码读取失败，请点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3018:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event19, BIT, ON, 默认, Burnin_Roon.Q_8bit(3019:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 初测位顶升气缸报警，请检查IO 上限X232 下限X233
+ 上升Y231 下降Y232 点动复位清除", BIT, ON, 默认, Burnin_Roon.Q_8bit(3020:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 初测位插PIN气缸报警，请检查IO 推出感应X234 退回感应X235
+ 推出Y234 退回Y235 点动复位清除", BIT, ON, 默认, Burnin_Roon.Q_8bit(3021:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event22, BIT, ON, 默认, Burnin_Roon.Q_8bit(3022:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event23, BIT, ON, 默认, Burnin_Roon.Q_8bit(3023:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event24, BIT, ON, 默认, Burnin_Roon.Q_8bit(3024:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event25, BIT, ON, 默认, Burnin_Roon.Q_8bit(3025:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event26, BIT, ON, 默认, Burnin_Roon.Q_8bit(3026:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event27, BIT, ON, 默认, Burnin_Roon.Q_8bit(3027:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event28, BIT, ON, 默认, Burnin_Roon.Q_8bit(3028:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event29, BIT, ON, 默认, Burnin_Roon.Q_8bit(3029:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 老化入口平台马达运转超时，请检查IO Y14 点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3030:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 老化入口平台顶升气缸报警，请检查IO 上限X24 下限X23 上升Y11 下降Y12, BIT, ON, 默认, Burnin_Roon.Q_8bit(3031:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 老化入口自动门气缸报警，请检查IO 上限X25 下限X26  打开Y15  关闭Y16, BIT, ON, 默认, Burnin_Roon.Q_8bit(3032:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event33, BIT, ON, 默认, Burnin_Roon.Q_8bit(3033:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 老化房返板出口顶升气缸报警（靠近Pre_Ate测试端)
+，请检查IO 上限X45 下限X44 上升Y34 下降Y35", BIT, ON, 默认, Burnin_Roon.Q_8bit(3034:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 老化返板出口平台（靠近上机）出治具超时 请检查IO Y36
+出口是否有卡治具", BIT, ON, 默认, Burnin_Roon.Q_8bit(3035:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event36, BIT, ON, 默认, Burnin_Roon.Q_8bit(3036:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event37, BIT, ON, 默认, Burnin_Roon.Q_8bit(3037:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event38, BIT, ON, 默认, Burnin_Roon.Q_8bit(3038:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event39, BIT, ON, 默认, Burnin_Roon.Q_8bit(3039:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 老化出口平台马达运转超时，请检查IO Y626 点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3040:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 老化出口平台顶升气缸报警，请检查IO 上限X624 下限X623
+ 上升Y624 下降Y625 点动复位清除", BIT, ON, 默认, Burnin_Roon.Q_8bit(3041:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 老化出口自动门气缸报警，请检查IO 上限X626 下限X627
+ 打开Y630 关闭Y631 点动复位清除", BIT, ON, 默认, Burnin_Roon.Q_8bit(3042:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 老化返板入口马达运转超时(靠近Hipot)，请检查Y632 点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3043:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 老化房返板入口顶升气缸报警（靠近Hipot测试端)
+，请检查IO 上限X636 下限X635 上升Y635 下降Y636", BIT, ON, 默认, Burnin_Roon.Q_8bit(3044:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 返板老化入口平台进治具超时（靠近Hipot端) 请检查IO
+Y632 是否有卡治具，点动复位清除", BIT, ON, 默认, Burnin_Roon.Q_8bit(3045:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event46, BIT, ON, 默认, Burnin_Roon.Q_8bit(3046:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event47, BIT, ON, 默认, Burnin_Roon.Q_8bit(3047:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event48, BIT, ON, 默认, Burnin_Roon.Q_8bit(3048:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event49, BIT, ON, 默认, Burnin_Roon.Q_8bit(3049:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 紧急停止按钮被按下，请检查IO X57 X217 点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3050:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 老化房安全门打开，请检查IO X50 点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3051:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 上机升降机安全门打开请检查IO X204 点动复位清除, BIT, ON, 默认, Burnin_Roon.Q_8bit(3052:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 初测位安全门打开, BIT, ON, 默认, Burnin_Roon.Q_8bit(3053:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event54, BIT, ON, 默认, Burnin_Roon.Q_8bit(3054:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 烟感报警请检查IO X20 , BIT, ON, 默认, Burnin_Roon.Q_8bit(3055:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 上位机软件关闭，请开启, BIT, ON, 默认, Burnin_Roon.Q_8bit(3056:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 老化房有不良报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3057:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 老化房客户提供零线电流过载，
+电流表读取值超过电缆承受的电流值，暂停进机", BIT, ON, 默认, Burnin_Roon.Q_8bit(3058:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 老化房客户提供零线电流读取异常，
+暂停进机", BIT, ON, 默认, Burnin_Roon.Q_8bit(3059:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 机械手平台1脱PIN气缸报警，请检查IO 上限X35 下限X36
+ 上升Y23 下降Y24 点动复位清除", BIT, ON, 默认, Burnin_Roon.Q_8bit(3060:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 机械手平台2脱PIN气缸报警，请检查IO 上限X46 下限X47
+ 上升Y32 下降Y33 点动复位清除", BIT, ON, 默认, Burnin_Roon.Q_8bit(3061:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 机械手X轴或者Z轴运动过程中，保护光电检测到信号异常报警请人工确认，点动复位按钮清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3062:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 机械手平台记忆有产品实际检测无产品报警，请检查机械手平台是否有治具, BIT, ON, 默认, Burnin_Roon.Q_8bit(3063:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 机械手平台记忆无治具实际检测有治具报警请人工取走治具，点动复位按钮继续, BIT, ON, 默认, Burnin_Roon.Q_8bit(3064:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 机械手X轴伺服马达报警，请查看驱动器报警代码, BIT, ON, 默认, Burnin_Roon.Q_8bit(3065:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 机械手Z轴伺服马达报警，请查看驱动器报警代码, BIT, ON, 默认, Burnin_Roon.Q_8bit(3066:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 机械手Y轴伺服马达报警，请查看驱动器报警代码, BIT, ON, 默认, Burnin_Roon.Q_8bit(3067:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 扫条码Y轴步进报警
+", BIT, ON, 默认, Burnin_Roon.Q_8bit(3068:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 扫条码Z轴步进报警
+", BIT, ON, 默认, Burnin_Roon.Q_8bit(3069:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低," 风压开关检测异常，请检查IO X616
+", BIT, ON, 默认, Burnin_Roon.Q_8bit(3070:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event71, BIT, ON, 默认, Burnin_Roon.Q_8bit(3071:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event72, BIT, ON, 默认, Burnin_Roon.Q_8bit(3072:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event73, BIT, ON, 默认, Burnin_Roon.Q_8bit(3073:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event74, BIT, ON, 默认, Burnin_Roon.Q_8bit(3074:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event75, BIT, ON, 默认, Burnin_Roon.Q_8bit(3075:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event76, BIT, ON, 默认, Burnin_Roon.Q_8bit(3076:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event77, BIT, ON, 默认, Burnin_Roon.Q_8bit(3077:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event78, BIT, ON, 默认, Burnin_Roon.Q_8bit(3078:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event79, BIT, ON, 默认, Burnin_Roon.Q_8bit(3079:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 循环风机检测异常报警，请检查IO X600 Y606, BIT, ON, 默认, Burnin_Roon.Q_8bit(3080:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 辅助电热检测异常报警，请检查X601 Y607, BIT, ON, 默认, Burnin_Roon.Q_8bit(3081:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, EGO1检测异常报警，请检查IO X602, BIT, ON, 默认, Burnin_Roon.Q_8bit(3082:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, EGO2检测异常报警，请检查IO X603, BIT, ON, 默认, Burnin_Roon.Q_8bit(3083:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, EGO3检测异常报警，请检查IO X604, BIT, ON, 默认, Burnin_Roon.Q_8bit(3084:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, EGO4检测异常报警，请检查IO X605, BIT, ON, 默认, Burnin_Roon.Q_8bit(3085:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, EGO5检测异常报警，请检查IO X606, BIT, ON, 默认, Burnin_Roon.Q_8bit(3086:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event, BIT, ON, 默认, Burnin_Roon.Q_8bit(3087:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event, BIT, ON, 默认, Burnin_Roon.Q_8bit(3088:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event, BIT, ON, 默认, Burnin_Roon.Q_8bit(3089:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC1-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3090:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC2-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3091:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC3-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3092:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC4-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3093:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC5-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3094:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC6-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3095:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC7-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3096:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC8-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3097:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC9-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3098:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC10-负载超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3099:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC11-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3100:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC12-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3101:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC13-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3102:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC14-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3103:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC15-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3104:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC16-超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3105:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC17-负载超温报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3106:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event107, BIT, ON, 默认, Burnin_Roon.Q_8bit(3107:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event108, BIT, ON, 默认, Burnin_Roon.Q_8bit(3108:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event109, BIT, ON, 默认, Burnin_Roon.Q_8bit(3109:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event110, BIT, ON, 默认, Burnin_Roon.Q_8bit(3110:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event111, BIT, ON, 默认, Burnin_Roon.Q_8bit(3111:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event112, BIT, ON, 默认, Burnin_Roon.Q_8bit(3112:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event113, BIT, ON, 默认, Burnin_Roon.Q_8bit(3113:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event114, BIT, ON, 默认, Burnin_Roon.Q_8bit(3114:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event115, BIT, ON, 默认, Burnin_Roon.Q_8bit(3115:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event116, BIT, ON, 默认, Burnin_Roon.Q_8bit(3116:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event117, BIT, ON, 默认, Burnin_Roon.Q_8bit(3117:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event118, BIT, ON, 默认, Burnin_Roon.Q_8bit(3118:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event119, BIT, ON, 默认, Burnin_Roon.Q_8bit(3119:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event120, BIT, ON, 默认, Burnin_Roon.Q_8bit(3120:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event121, BIT, ON, 默认, Burnin_Roon.Q_8bit(3121:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event122, BIT, ON, 默认, Burnin_Roon.Q_8bit(3122:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event123, BIT, ON, 默认, Burnin_Roon.Q_8bit(3123:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event124, BIT, ON, 默认, Burnin_Roon.Q_8bit(3124:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event125, BIT, ON, 默认, Burnin_Roon.Q_8bit(3125:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event126, BIT, ON, 默认, Burnin_Roon.Q_8bit(3126:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event127, BIT, ON, 默认, Burnin_Roon.Q_8bit(3127:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event128, BIT, ON, 默认, Burnin_Roon.Q_8bit(3128:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event129, BIT, ON, 默认, Burnin_Roon.Q_8bit(3129:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event130, BIT, ON, 默认, Burnin_Roon.Q_8bit(3130:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event131, BIT, ON, 默认, Burnin_Roon.Q_8bit(3131:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event132, BIT, ON, 默认, Burnin_Roon.Q_8bit(3132:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event133, BIT, ON, 默认, Burnin_Roon.Q_8bit(3133:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event134, BIT, ON, 默认, Burnin_Roon.Q_8bit(3134:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event135, BIT, ON, 默认, Burnin_Roon.Q_8bit(3135:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event136, BIT, ON, 默认, Burnin_Roon.Q_8bit(3136:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event137, BIT, ON, 默认, Burnin_Roon.Q_8bit(3137:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event138, BIT, ON, 默认, Burnin_Roon.Q_8bit(3138:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event139, BIT, ON, 默认, Burnin_Roon.Q_8bit(3139:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event140, BIT, ON, 默认, Burnin_Roon.Q_8bit(3140:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event141, BIT, ON, 默认, Burnin_Roon.Q_8bit(3141:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event142, BIT, ON, 默认, Burnin_Roon.Q_8bit(3142:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event143, BIT, ON, 默认, Burnin_Roon.Q_8bit(3143:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event144, BIT, ON, 默认, Burnin_Roon.Q_8bit(3144:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event145, BIT, ON, 默认, Burnin_Roon.Q_8bit(3145:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event146, BIT, ON, 默认, Burnin_Roon.Q_8bit(3146:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event147, BIT, ON, 默认, Burnin_Roon.Q_8bit(3147:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event148, BIT, ON, 默认, Burnin_Roon.Q_8bit(3148:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event149, BIT, ON, 默认, Burnin_Roon.Q_8bit(3149:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event150, BIT, ON, 默认, Burnin_Roon.Q_8bit(3150:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event151, BIT, ON, 默认, Burnin_Roon.Q_8bit(3151:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event152, BIT, ON, 默认, Burnin_Roon.Q_8bit(3152:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event153, BIT, ON, 默认, Burnin_Roon.Q_8bit(3153:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event154, BIT, ON, 默认, Burnin_Roon.Q_8bit(3154:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event155, BIT, ON, 默认, Burnin_Roon.Q_8bit(3155:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event156, BIT, ON, 默认, Burnin_Roon.Q_8bit(3156:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event157, BIT, ON, 默认, Burnin_Roon.Q_8bit(3157:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event158, BIT, ON, 默认, Burnin_Roon.Q_8bit(3158:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event159, BIT, ON, 默认, Burnin_Roon.Q_8bit(3159:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event160, BIT, ON, 默认, Burnin_Roon.Q_8bit(3160:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event161, BIT, ON, 默认, Burnin_Roon.Q_8bit(3161:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event162, BIT, ON, 默认, Burnin_Roon.Q_8bit(3162:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event163, BIT, ON, 默认, Burnin_Roon.Q_8bit(3163:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event164, BIT, ON, 默认, Burnin_Roon.Q_8bit(3164:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event165, BIT, ON, 默认, Burnin_Roon.Q_8bit(3165:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event166, BIT, ON, 默认, Burnin_Roon.Q_8bit(3166:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event167, BIT, ON, 默认, Burnin_Roon.Q_8bit(3167:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event168, BIT, ON, 默认, Burnin_Roon.Q_8bit(3168:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event169, BIT, ON, 默认, Burnin_Roon.Q_8bit(3169:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event170, BIT, ON, 默认, Burnin_Roon.Q_8bit(3170:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event171, BIT, ON, 默认, Burnin_Roon.Q_8bit(3171:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event172, BIT, ON, 默认, Burnin_Roon.Q_8bit(3172:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event173, BIT, ON, 默认, Burnin_Roon.Q_8bit(3173:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event174, BIT, ON, 默认, Burnin_Roon.Q_8bit(3174:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event175, BIT, ON, 默认, Burnin_Roon.Q_8bit(3175:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event176, BIT, ON, 默认, Burnin_Roon.Q_8bit(3176:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event177, BIT, ON, 默认, Burnin_Roon.Q_8bit(3177:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event178, BIT, ON, 默认, Burnin_Roon.Q_8bit(3178:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event179, BIT, ON, 默认, Burnin_Roon.Q_8bit(3179:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 90V测试电源接触器检测异常, BIT, ON, 默认, Burnin_Roon.Q_8bit(3180:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 110V测试电源接触器检测异常，请检查IO X610 Y616, BIT, ON, 默认, Burnin_Roon.Q_8bit(3181:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 220V测试电源接触器检测异常，请检查IO X611 Y617, BIT, ON, 默认, Burnin_Roon.Q_8bit(3182:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 264V测试电源接触器检测异常, BIT, ON, 默认, Burnin_Roon.Q_8bit(3183:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 300V测试电源接触器检测异常, BIT, ON, 默认, Burnin_Roon.Q_8bit(3184:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 330V测试电源接触器检测异常, BIT, ON, 默认, Burnin_Roon.Q_8bit(3185:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, 380V测试电源接触器检测异常, BIT, ON, 默认, Burnin_Roon.Q_8bit(3186:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event187, BIT, ON, 默认, Burnin_Roon.Q_8bit(3187:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event188, BIT, ON, 默认, Burnin_Roon.Q_8bit(3188:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event189, BIT, ON, 默认, Burnin_Roon.Q_8bit(3189:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event190, BIT, ON, 默认, Burnin_Roon.Q_8bit(3190:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event191, BIT, ON, 默认, Burnin_Roon.Q_8bit(3191:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event192, BIT, ON, 默认, Burnin_Roon.Q_8bit(3192:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event193, BIT, ON, 默认, Burnin_Roon.Q_8bit(3193:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event194, BIT, ON, 默认, Burnin_Roon.Q_8bit(3194:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event195, BIT, ON, 默认, Burnin_Roon.Q_8bit(3195:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event196, BIT, ON, 默认, Burnin_Roon.Q_8bit(3196:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event197, BIT, ON, 默认, Burnin_Roon.Q_8bit(3197:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event198, BIT, ON, 默认, Burnin_Roon.Q_8bit(3198:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event199, BIT, ON, 默认, Burnin_Roon.Q_8bit(3199:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC1_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3200:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC2_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3201:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC3_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3202:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC4_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3203:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC5_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3204:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC6_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3205:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC7_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3206:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC8_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3207:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC9_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3208:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC10_负载读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3209:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC11_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3210:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC12_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3211:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC13_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3212:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC14_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3213:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC15_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3214:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC16_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3215:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC17_负载读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3216:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC18_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3217:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC19_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3218:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC20_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3219:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC21_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3220:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC22_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3221:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC23_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3222:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC24_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3223:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC25_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3224:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC26_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3225:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC27_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3226:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC28_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3227:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC29_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3228:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC30_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3229:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC31_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3230:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC32_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3231:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC33_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3232:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC34_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3233:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC35_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3234:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC36_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3235:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC37_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3236:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC38_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3237:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC39_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3238:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC40_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3239:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC41_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3240:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC42_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3241:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC43_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3242:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC44_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3243:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC45_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3244:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC46_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3245:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC47_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3246:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC48_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3247:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC49_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3248:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC50_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3249:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC51_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3250:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC52_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3251:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC53_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3252:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC54_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3253:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC55_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3254:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC56_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3255:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC57_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3256:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC58_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3257:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC59_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3258:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC60_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3259:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC61_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3260:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC62_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3261:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC63_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3262:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC64_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3263:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC65_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3264:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC66_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3265:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC67_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3266:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC68_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3267:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC69_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3268:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC70_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3269:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC71_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3270:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC72_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3271:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC73_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3272:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC74_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3273:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC75_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3274:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC76_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3275:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC77_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3276:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC78_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3277:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC79_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3278:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC80_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3279:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC81_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3280:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC82_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3281:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC83_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3282:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC84_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3283:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC85_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3284:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC86_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3285:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC87_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3286:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC88_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3287:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC89_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3288:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, TC90_读取异常，请检查线路，读取OK自动清除报警, BIT, ON, 默认, Burnin_Roon.Q_8bit(3289:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event290, BIT, ON, 默认, Burnin_Roon.Q_8bit(3290:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event291, BIT, ON, 默认, Burnin_Roon.Q_8bit(3291:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event292, BIT, ON, 默认, Burnin_Roon.Q_8bit(3292:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event293, BIT, ON, 默认, Burnin_Roon.Q_8bit(3293:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event294, BIT, ON, 默认, Burnin_Roon.Q_8bit(3294:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event295, BIT, ON, 默认, Burnin_Roon.Q_8bit(3295:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event296, BIT, ON, 默认, Burnin_Roon.Q_8bit(3296:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event297, BIT, ON, 默认, Burnin_Roon.Q_8bit(3297:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event298, BIT, ON, 默认, Burnin_Roon.Q_8bit(3298:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0
+0, 低, Event299, BIT, ON, 默认, Burnin_Roon.Q_8bit(3299:0), BIT, 停用, 否, 停用,0, 宋体,0,0,0

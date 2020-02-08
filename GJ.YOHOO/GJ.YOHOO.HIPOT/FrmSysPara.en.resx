@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmbIoCom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 72</value>
+  </data>
+  <data name="cmbIoCom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 33</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Server Port:</value>
+  </data>
+  <data name="txtSerPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 140</value>
+  </data>
+  <data name="txtSerPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 23</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 33</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Hipot1 COM:</value>
+  </data>
+  <data name="cmbHPCom1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 4</value>
+  </data>
+  <data name="cmbHPCom1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 33</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Scan Times(ms):</value>
+  </data>
+  <data name="txtMonDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 242</value>
+  </data>
+  <data name="txtMonDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 23</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 33</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Server IP:</value>
+  </data>
+  <data name="txtSerIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 106</value>
+  </data>
+  <data name="txtSerIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 23</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 33</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Station Name:</value>
+  </data>
+  <data name="txtSerStat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 208</value>
+  </data>
+  <data name="txtSerStat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 23</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 33</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>TCP Protocol:</value>
+  </data>
+  <data name="cmbTcpMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt</value>
+  </data>
+  <data name="cmbTcpMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 174</value>
+  </data>
+  <data name="cmbTcpMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 24</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 33</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Device Type:</value>
+  </data>
+  <data name="cmbHPType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 310</value>
+  </data>
+  <data name="cmbHPType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 33</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Number of Device:</value>
+  </data>
+  <data name="cmbHPMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 378</value>
+  </data>
+  <data name="cmbHPMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 33</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>IO Delay(ms):</value>
+  </data>
+  <data name="txtIoDelayMs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 276</value>
+  </data>
+  <data name="txtIoDelayMs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 23</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 33</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Hipot2 COM:</value>
+  </data>
+  <data name="cmbHPCom2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 38</value>
+  </data>
+  <data name="cmbHPCom2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 33</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Device Baud Rate:</value>
+  </data>
+  <data name="txtHpBaud.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 344</value>
+  </data>
+  <data name="txtHpBaud.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 23</value>
+  </data>
+  <data name="chkIoEnable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 27</value>
+  </data>
+  <data name="chkIoEnable.Text" xml:space="preserve">
+    <value>Hipot IO COM:</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 1</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 33</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Hipot1 GBIP:</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 35</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 33</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Hipot2 GBIP:</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtGBIP1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="txtGBIP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>462, 4</value>
+  </data>
+  <data name="txtGBIP2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="txtGBIP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>462, 38</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>698, 456</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>708, 466</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="chkImpPrg.Text" xml:space="preserve">
+    <value>Import Program from device</value>
+  </data>
+  <data name="chkAutoModel.Text" xml:space="preserve">
+    <value>Automatic call program</value>
+  </data>
+  <data name="chkReTest.Text" xml:space="preserve">
+    <value>Enable fail retesting</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>698, 457</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>708, 467</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Model specified path:</value>
+  </data>
+  <data name="chkSaveReport.Text" xml:space="preserve">
+    <value>Save report</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Report path:</value>
+  </data>
+  <data name="txtModelPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 23</value>
+  </data>
+  <data name="txtReportPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 23</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Save times(Min):</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 33</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAa
+        EAAAAk1TRnQBSQFMAgEBAwEAAWABAgFgAQIBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEgBgABEBoAAbgBnwGOAf8BBgIAAf8BBgIAAf8BBgIAAf8BBgIAAf8BBgIAAf8BBgIA
+        Af8BBgIAAf8BBgIAAf8BBgIAAf8BBgIAAf8BBgIAAf8BBgIAAf8lAAGcAQAB/wESAaUBGwH/oAABuAGf
+        AY4B/wHpAd4B2AH/AaQBiwEyAf8BpAGLATIB/wGkAYsBMgH/AaQBiwEyAf8BpAGLATIB/wGkAYsBMgH/
+        AaQBiwEyAf8BpAGLATIB/wGkAYsBMgH/AaQBiwEyAf8BBgIAAf8kAAGEAbUBjAH/AQABpQEKAf8YAAOA
+        Af8BGgJEAf8DgAH/ARoCRAH/ARoBJAFEAf8BGgEkARoB/wEaAQQBGgH/AQABBAEaAf8BGgIAAf8DAAH/
+        AwAB/wMAAf8DAAH/VAABuAGfAY4B/wHtAeMB3gH/AekB3gHYAf8B5QHZAdMB/wHiAdQBzAH/Ad4BzgHG
+        Af8B2gHJAcAB/wHXAcQBugH/AdMBvwG0Af8B0AG6Aa0B/wHQAboBrQH/AaQBiwEyAf8BBgIAAf8kAAEC
+        Aa0BEgH/ATMB9wGlAf8BAgGtARIB/wEzAa0BhAH/EAABGgFEAaoB/wGkAqAB/wEaAb8B1AH/AQABRAHU
+        Af8BAAGfAdQB/wEAAUQB1AH/AQABRAHUAf8BAAFEAaoB/wEAAUQBqgH/AQABRAGqAf8BGgFEAaoB/wEA
+        AoAB/wEAAQQBGgH/VAABuAGfAY4B/wHwAekB5QH/Ae0B4wHeAf8B6QHeAdgB/wHlAdkB0wH/AeIB1AHM
+        Af8B3gHOAcYB/wHaAckBwAH/AdcBxAG6Af8B0wG/AbQB/wHQAboBrQH/AaQBiwEyAf8BBgIAAf8kAAEC
+        AbUBGwH/ASsB9wGcAf8BKwHnAZQB/wEAAYwBAAH/EAADgAH/AaoBvwHUAf8BGgGfAaoB/wEaAd8C/wEa
+        Ab8C/wEaAb8C/wEaAb8C/wEaAb8C/wEaAb8B1AH/AQABnwL/AQABnwHUAf8BAAFEAdQB/wEaASQBRAH/
+        ARoBJAEaAf9QAAG4AZ8BjgH/AfMB7gHrAf8BzAGAAQAB/wHMAYABAAH/AwAB/wGAAgAB/wGAAgAB/wHe
+        Ac4BxgH/AdoByQHAAf8B1wHEAboB/wHTAb8BtAH/AaQBiwEyAf8BBgIAAf8IAAEzAbUBMwH/AQABlAEA
+        Af8UAAGEAbUBjAH/ASsB7wGcAf8BKwH3AZwB/wEjAecBjAH/ARsBpQEbAf8MAAOAAf8BGgHfAv8BpAKg
+        Af8BqgG/AdQB/wEaAd8C/wEaAd8C/wEaAd8C/wEaAb8C/wEaAb8C/wEaAb8C/wEaAb8C/wEAAZ8B1AH/
+        AQABRAHUAf8BAAEkARoB/1AAAbgBnwGOAf8B9wHzAfIB/wHzAe4B6wH/AfAB6QHlAf8BuAKAAf8DAAH/
+        AQABgAG4Af8DAAH/Ad4BzgHGAf8B2gHJAcAB/wHXAcQBugH/AaQBiwEyAf8BBgIAAf8IAAEzAbUBMwH/
+        AQoBzgErAf8BAAGcAQIB/wwAARIBpQEbAf8BIwHnAZQB/wErAe8BnAH/ASsB7wGcAf8BKwH3AZwB/wEA
+        AZQBAgH/DAADgAH/AaoB3wHUAf8BpAKgAf8BGgGfAaoB/wGqAd8C/wEaAb8C/wEaAd8C/wEaAb8C/wEa
+        Ab8C/wEaAb8C/wEaAb8C/wEaAb8C/wEAAZ8C/wEaASQBRAH/ARoBnwGqAf9MAAG4AZ8BjgH/AfsB+gH4
+        Af8BzAGAAQAB/wHMAYABAAH/AbgCgAH/AQABgAG4Af8BAAGsAdUB/wEAAYABuAH/AwAB/wHeAc4BxgH/
+        AdoByQHAAf8BpAGLATIB/wEGAgAB/wgAATMBtQEzAf8BCgHOASsB/wEKAc4BMwH/AQABnAECAf8FAAGU
+        AQAB/wESAc4BMwH/ASMB5wGUAf8BIwHnAZQB/wErAe8BnAH/ASsB7wGcAf8BAAGUAQIB/wwAARoBnwGq
+        Af8BqgHfAv8BpAKgAf8BqgGfAaoB/wGqAb8B1AH/ARoB3wL/ARoB3wL/ARoB3wL/ARoB3wL/ARoBvwL/
+        ARoBvwL/ARoBvwL/ARoBvwL/AQABnwHUAf8BGgEkAUQB/0wAAbgBnwGOBf8B+wH6AfgB/wH3AfMB8gH/
+        AfMB7gHrAf8BAAGAAbgB/wEzAdwB8wH/AQABrAHVAf8BAAGAAbgB/wMAAf8B3gHOAcYB/wGkAYsBMgH/
+        AQYCAAH/CAABMwG1ATMB/wEKAc4BKwH/AQoBzgErAf8BCgHGASsB/wEAAYQBAAH/AQoBxgEjAf8BGwHe
+        AYwB/wEbAecBjAH/ASMB5wGUAf8BIwHnAZQB/wEjAecBlAH/AQABlAECAf8MAAGkAqAB/wGqAd8C/wGq
+        AZ8BRAP/AdQB/wGqAZ8BqgH/ARoB3wL/AaoB3wL/ARoB3wL/AaoB3wL/ARoB3wL/AaoB3wL/ARoB3wL/
+        AaoB3wL/ARoB3wL/ARoBnwHUAf8BpAKgAf9IAAG4AZ8BjgX/AcwBgAEAAf8BzAGAAQAB/wHMAYABAAH/
+        AcwBgAEAAf8BAAGAAbgB/wEzAdwB8wH/AQABrAHVAf8BAAGAAbgB/wMAAf8BpAGLATIB/wEGAgAB/wgA
+        ATMBtQEzAf8BAgHGARsB/wECAc4BIwH/AQoBzgErAf8BCgHOATMB/wESAdYBhAH/ARIB1gGEAf8BGwHe
+        AYwB/wEbAd4BjAH/ASMB5wGUAf8BAgGtARIB/wEbAaUBGwH/DAABpAKgAf8BqgHfAv8BqgGfAaoF/wEa
+        AZ8BqgH/AaoBvwGqAf8BpAKgAf8BGgGfAaoB/wGkAqAB/wEaAZ8BqgH/AaQCoAH/ARoBnwGqAf8DgAH/
+        AaQCoAH/A4AB/wOAAf9IAAG4AZ8Bjg3/A/wB/wH6AfcB9gH/AfYB8AHvAf8BAAGAAbgB/wEzAdwB8wH/
+        AQABrAHVAf8BAAGAAbgB/wMAAf8BBgIAAf8IAAEzAbUBMwH/AQIBxgEbAf8BAgHGARsB/wEKAc4BKwH/
+        AQoBzgErAf8BEgHWAYQB/wESAdYBhAH/ARIB3gGEAf8BGwHeAYwB/wESAc4BMwH/AQABlAEAAf8QAAEa
+        AZ8BqgH/AaoB3wL/AfABygGmAf8B8AH7A/8B3wHUAv8B3wL/AfAB+wP/Ad8B1AL/AswB/wEaASQBAAL/
+        AUQBGgH/ARoBJAEAAf8BAAFEAQAB/wEAAUQBAAH/ARoBRAEAAf9MAAG4AZ8BjgX/AcwBgAEAAf8BzAGA
+        AQAB/wHMAYABAAH/AcwBgAEAAf8BzAGAAQAB/wHMAYABAAH/AQABgAG4Af8BMwHcAfMB/wEAAawB1QH/
+        Ax4B/wIAAYIB/wgAATMBtQEzAf8BAAG9AQoB/wEAAcYBEgH/AQIBxgEbAf8BAgHOASMB/wEKAc4BKwH/
+        AQoBzgEzAf8BEgHWAYQB/wESAdYBhAH/AQABlAECAf8UAAGkAqAB/wGqAd8C/wGqAb8BqgX/AfABygGm
+        Av8BnwFEAf8BqgGfAUQC/wGfAUQC/wHfAdQB/wEaAQQBAAH/AaoBRAEaAf8BGgGfAQAB/wEaAZ8BAAH/
+        ARoBnwEAAf8BGgFEAQAB/0wAAbgBnwGOFf8D/AH/AfoB9wH2Af8B9gHwAe8B/wEAAYABuAH/AcUBpwGX
+        Af8BFAErAYAB/wIAAYIB/wIAAYIB/wQAATMBtQEzAf8BAAG9AQoB/wEAAb0BCgH/AQIBxgEbAf8BAgHG
+        ARsB/wEKAc4BKwH/AQoBzgErAf8BCgHWATMB/wECAbUBGwH/GAABpAKgAf8BqgHfAdQB/wHwAcoBpgH/
+        AfAB+wL/AfAB+wL/AfAB+wL/AfAB+wL/AfAB+wL/AfAB+wL/ARoBBAEAAv8BRAEaAf8BqgGfAQAB/wEa
+        AZ8BAAH/ARoBnwEAAf8BGgG/ARoB/0wAAbgBnwGOGf8D/AH/AfoB9wH2Af8BuAGfAY4B/wIAAfYB/wEK
+        ASgB/AH/AgAB9gH/AgABggH/BAABMwG1ATMB/wEAAbUBAAH/AQABvQECAf8BAAG9AQoB/wEAAcYBEgH/
+        AQIBxgEbAf8BAgHOASMB/wEKAc4BKwH/AQoBzgEzAf8BAAGMAQAB/xgAAaQCoAH/AcAB3AHAAf8B8AHK
+        AaYB/wHwAcoBpgH/AfABygGmAf8B8AHKAaYB/wHwAcoBpgH/AfABygGmAf8BqgG/AaoC/wGfARoC/wFE
+        ARoB/wEaAZ8BAAH/ARoBnwEAAf9QAAG4AZ8Bjh3/A/wB/wG4AZ8BjgH/AdABugGtAf8CAAH2Af8CAAH2
+        Af8IAAEzAbUBMwH/AQABtQEAAf8BAAG1AQAB/wEAAb0BCgH/AQABvQEKAf8BAgHGARsB/wECAcYBGwH/
+        AQIBzgEjAf8BCgHOASsB/wEAAa0BCgH/AQABlAECAf8gAAEaAd8BRAH/ARoB3wGqAf8BqgH/AaoB/wHA
+        AdwBwAP/AdQB/wGqAd8BqgH/A4AB/wGqAZ8BGgH/AaoBnwEAAf8BGgG/ARoB/1AAAbgBnwGOIf8BuAGf
+        AY4B/wEGAgAB/xAAATMBtQEzAf8BAAGtAQAB/wEAAbUBAAH/AQABtQEAAf8BAAG9AQIB/wEAAb0BCgH/
+        AQABxgESAf8BAgHGARsB/wECAc4BIwH/AQoBzgErAf8BCgHOASsB/wEAAZQBAgH/IAABqgHfAaoB/wHA
+        AdwBwAP/AcwB/wEaAZ8BGgH/AaoB3wFEAf8BGgG/ARoB/wGqAUQBAAL/AZ8BRAH/VAABuAGfAY4B/wG4
+        AZ8BjgH/AbgBnwGOAf8BuAGfAY4B/wG4AZ8BjgH/AbgBnwGOAf8BuAGfAY4B/wG4AZ8BjgH/AbgBnwGO
+        Af8BuAGfAY4B/xQAATMBtQEzAf8BAAGcAQAB/wEAAZwBAAH/AQABnAEAAf8BAAGcAQAB/wEAAaUBAAH/
+        AQABpQEAAf8BAAGlAQIB/wEAAaUBAgH/AQABrQEKAf8BAAGtAQoB/wEAAZQBAAH/AQABjAEAAf8kAAHA
+        AdwBwAH/AaoB3wGqAf8BGgHfAUQB/wEaAb8BRAH/VAABQgFNAT4HAAE+AwABKAMAAUADAAEQAwABAQEA
+        AQEFAAGAFwAD/wEAAcABAQH/AT8C/wIAAcABAQH/AT8BAAEHAgABwAEBAf8BDwEAAQcCAAHAAQEB/wEP
+        AQABAwIAAcABAQGfAQcBAAEDAgABwAEBAY4BBwEAAQECAAHAAQEBhAEHAQABAQIAAcABAQGAAQcEAAHA
+        AQEBgAEHBAABwAEBAYABDwEAAQECAAHAAQEBgAEfAQABAQIAAcABAAGAAT8BAAEBAgABwAEAAYABHwGA
+        AQMCAAHAAQEBgAEPAfABAwIAAcABBwGAAQcB+AEHAgABwAEPAYABAwH+AR8CAAs=
+</value>
+  </data>
+  <data name="btnModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>605, 1</value>
+  </data>
+  <data name="btnModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 33</value>
+  </data>
+  <data name="btnModel.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="btnReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>605, 69</value>
+  </data>
+  <data name="btnReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 33</value>
+  </data>
+  <data name="btnReport.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="panel4.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>698, 457</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>708, 467</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Test Data</value>
+  </data>
+  <data name="chkMesCon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 27</value>
+  </data>
+  <data name="chkMesCon.Text" xml:space="preserve">
+    <value>MES Connect</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 33</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>No Tran While Over Fail:</value>
+  </data>
+  <data name="txtFailNoTran.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 72</value>
+  </data>
+  <data name="chkGJWeb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 27</value>
+  </data>
+  <data name="chkGJWeb.Text" xml:space="preserve">
+    <value>GJ Web Check Sn</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>698, 457</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>708, 467</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>MES Setting</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>716, 497</value>
+  </data>
+  <data name="btnExit.Text" xml:space="preserve">
+    <value>Exit(&amp;E)</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK(&amp;O)</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>497</value>
+  </data>
+</root>

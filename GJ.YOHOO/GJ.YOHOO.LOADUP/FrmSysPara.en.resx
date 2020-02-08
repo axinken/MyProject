@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>BI PLC IP:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>RFID COM:</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>ELOAD COM:</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Monitor interval(ms):</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Scanner Type:</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Scanner Baud:</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Ammeter COM:</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Scanner1 COM:</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Scanner2 COM:</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Fast Charge COM:</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>723, 478</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>733, 488</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>AC Delay Time(ms):</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Fail retest times:</value>
+  </data>
+  <data name="chkFailWait.Text" xml:space="preserve">
+    <value>Confirm while failure</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Reread Sn Times:</value>
+  </data>
+  <data name="chkVSenor.Text" xml:space="preserve">
+    <value>Read Voltage Signal</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Retest Delay(ms):</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Reread RFID Times:</value>
+  </data>
+  <data name="chkACON.Text" xml:space="preserve">
+    <value>Detect AC ON</value>
+  </data>
+  <data name="chkIdleLoad.Text" xml:space="preserve">
+    <value>Enable no-load powerup</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>723, 481</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>733, 489</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Lower limit of test station:</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Test fixture life limit:</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Continuous failure limit of fixture:</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Failure limit of test station: </value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Lower yield limit of test station(%):</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Lower limit of fixture yield alarm(%):</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>723, 481</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>733, 489</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Specify model path:</value>
+  </data>
+  <data name="chkSaveReport.Text" xml:space="preserve">
+    <value>Save test report</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Report save path:</value>
+  </data>
+  <data name="txtModelPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 23</value>
+  </data>
+  <data name="txtReportPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 23</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Save interval(Min):</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 33</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABY
+        DwAAAk1TRnQBSQFMAgEBAwEAAcgBBgHIAQYBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEgBgABEBoAAbgBnwGOAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8lAAGcAQAB/wEAAaUBAAH/oAABuAGfAY4B/wHpAd4B2AH/AaQBiwEAAf8BpAGL
+        AQAB/wGkAYsBAAH/AaQBiwEAAf8BpAGLAQAB/wGkAYsBAAH/AaQBiwEAAf8BpAGLAQAB/wGkAYsBAAH/
+        AaQBiwEAAf8DAAH/JAABhAG1AYwB/wEAAaUBAAH/GAADgAH/AwAB/wOAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/VAABuAGfAY4B/wHtAeMB3gH/AekB3gHYAf8B5QHZAdMB/wHi
+        AdQBzAH/Ad4BzgHGAf8B2gHJAcAB/wHXAcQBugH/AdMBvwG0Af8B0AG6Aa0B/wHQAboBrQH/AaQBiwEA
+        Af8DAAH/JQABrQEAAf8BAAH3AaUB/wEAAa0BAAH/AQABrQGEAf8SAAGqAf8BpAKgAf8BAAG/AdQB/wIA
+        AdQB/wEAAZ8B1AH/AgAB1AH/AgAB1AH/AgABqgH/AgABqgH/AgABqgH/AgABqgH/AQACgAH/AwAB/1QA
+        AbgBnwGOAf8B8AHpAeUB/wHtAeMB3gH/AekB3gHYAf8B5QHZAdMB/wHiAdQBzAH/Ad4BzgHGAf8B2gHJ
+        AcAB/wHXAcQBugH/AdMBvwG0Af8B0AG6Aa0B/wGkAYsBAAH/AwAB/yUAAbUBAAH/AQAB9wGcAf8BAAHn
+        AZQB/wEAAYwBAAH/EAADgAH/AaoBvwHUAf8BAAGfAaoB/wEAAd8C/wEAAb8C/wEAAb8C/wEAAb8C/wEA
+        Ab8C/wEAAb8B1AH/AQABnwL/AQABnwHUAf8CAAHUAf8DAAH/AwAB/1AAAbgBnwGOAf8B8wHuAesB/wHM
+        AYABAAH/AcwBgAEAAf8DAAH/AYACAAH/AYACAAH/Ad4BzgHGAf8B2gHJAcAB/wHXAcQBugH/AdMBvwG0
+        Af8BpAGLAQAB/wMAAf8JAAG1AQAB/wEAAZQBAAH/FAABhAG1AYwB/wEAAe8BnAH/AQAB9wGcAf8BAAHn
+        AYwB/wEAAaUBAAH/DAADgAH/AQAB3wL/AaQCoAH/AaoBvwHUAf8BAAHfAv8BAAHfAv8BAAHfAv8BAAG/
+        Av8BAAG/Av8BAAG/Av8BAAG/Av8BAAGfAdQB/wIAAdQB/wMAAf9QAAG4AZ8BjgH/AfcB8wHyAf8B8wHu
+        AesB/wHwAekB5QH/AbgCgAH/AwAB/wEAAYABuAH/AwAB/wHeAc4BxgH/AdoByQHAAf8B1wHEAboB/wGk
+        AYsBAAH/AwAB/wkAAbUBAAH/AQABzgEAAf8BAAGcAQAB/w0AAaUBAAH/AQAB5wGUAf8BAAHvAZwB/wEA
+        Ae8BnAH/AQAB9wGcAf8BAAGUAQAB/wwAA4AB/wGqAd8B1AH/AaQCoAH/AQABnwGqAf8BqgHfAv8BAAG/
+        Av8BAAHfAv8BAAG/Av8BAAG/Av8BAAG/Av8BAAG/Av8BAAG/Av8BAAGfAv8DAAH/AQABnwGqAf9MAAG4
+        AZ8BjgH/AfsB+gH4Af8BzAGAAQAB/wHMAYABAAH/AbgCgAH/AQABgAG4Af8BAAGsAdUB/wEAAYABuAH/
+        AwAB/wHeAc4BxgH/AdoByQHAAf8BpAGLAQAB/wMAAf8JAAG1AQAB/wEAAc4BAAH/AQABzgEAAf8BAAGc
+        AQAB/wUAAZQBAAH/AQABzgEAAf8BAAHnAZQB/wEAAecBlAH/AQAB7wGcAf8BAAHvAZwB/wEAAZQBAAH/
+        DQABnwGqAf8BqgHfAv8BpAKgAf8BqgGfAaoB/wGqAb8B1AH/AQAB3wL/AQAB3wL/AQAB3wL/AQAB3wL/
+        AQABvwL/AQABvwL/AQABvwL/AQABvwL/AQABnwHUAf8DAAH/TAABuAGfAY4F/wH7AfoB+AH/AfcB8wHy
+        Af8B8wHuAesB/wEAAYABuAH/AQAB3AHzAf8BAAGsAdUB/wEAAYABuAH/AwAB/wHeAc4BxgH/AaQBiwEA
+        Af8DAAH/CQABtQEAAf8BAAHOAQAB/wEAAc4BAAH/AQABxgEAAf8BAAGEAQAB/wEAAcYBAAH/AQAB3gGM
+        Af8BAAHnAYwB/wEAAecBlAH/AQAB5wGUAf8BAAHnAZQB/wEAAZQBAAH/DAABpAKgAf8BqgHfAv8BqgGf
+        AQAD/wHUAf8BqgGfAaoB/wEAAd8C/wGqAd8C/wEAAd8C/wGqAd8C/wEAAd8C/wGqAd8C/wEAAd8C/wGq
+        Ad8C/wEAAd8C/wEAAZ8B1AH/AaQCoAH/SAABuAGfAY4F/wHMAYABAAH/AcwBgAEAAf8BzAGAAQAB/wHM
+        AYABAAH/AQABgAG4Af8BAAHcAfMB/wEAAawB1QH/AQABgAG4Af8DAAH/AaQBiwEAAf8DAAH/CQABtQEA
+        Af8BAAHGAQAB/wEAAc4BAAH/AQABzgEAAf8BAAHOAQAB/wEAAdYBhAH/AQAB1gGEAf8BAAHeAYwB/wEA
+        Ad4BjAH/AQAB5wGUAf8BAAGtAQAB/wEAAaUBAAH/DAABpAKgAf8BqgHfAv8BqgGfAaoF/wEAAZ8BqgH/
+        AaoBvwGqAf8BpAKgAf8BAAGfAaoB/wGkAqAB/wEAAZ8BqgH/AaQCoAH/AQABnwGqAf8DgAH/AaQCoAH/
+        A4AB/wOAAf9IAAG4AZ8Bjg3/A/wB/wH6AfcB9gH/AfYB8AHvAf8BAAGAAbgB/wEAAdwB8wH/AQABrAHV
+        Af8BAAGAAbgB/wMAAf8DAAH/CQABtQEAAf8BAAHGAQAB/wEAAcYBAAH/AQABzgEAAf8BAAHOAQAB/wEA
+        AdYBhAH/AQAB1gGEAf8BAAHeAYQB/wEAAd4BjAH/AQABzgEAAf8BAAGUAQAB/xEAAZ8BqgH/AaoB3wL/
+        AfABygGmAf8B8AH7A/8B3wHUAv8B3wL/AfAB+wP/Ad8B1AL/AswB/wMAAv8CAAH/AwAB/wMAAf8DAAH/
+        AwAB/0wAAbgBnwGOBf8BzAGAAQAB/wHMAYABAAH/AcwBgAEAAf8BzAGAAQAB/wHMAYABAAH/AcwBgAEA
+        Af8BAAGAAbgB/wEAAdwB8wH/AQABrAHVAf8DAAH/AgABggH/CQABtQEAAf8BAAG9AQAB/wEAAcYBAAH/
+        AQABxgEAAf8BAAHOAQAB/wEAAc4BAAH/AQABzgEAAf8BAAHWAYQB/wEAAdYBhAH/AQABlAEAAf8UAAGk
+        AqAB/wGqAd8C/wGqAb8BqgX/AfABygGmAv8BnwEAAf8BqgGfAQAC/wGfAQAC/wHfAdQB/wMAAf8BqgIA
+        Af8BAAGfAQAB/wEAAZ8BAAH/AQABnwEAAf8DAAH/TAABuAGfAY4V/wP8Af8B+gH3AfYB/wH2AfAB7wH/
+        AQABgAG4Af8BxQGnAZcB/wIAAYAB/wIAAYIB/wIAAYIB/wUAAbUBAAH/AQABvQEAAf8BAAG9AQAB/wEA
+        AcYBAAH/AQABxgEAAf8BAAHOAQAB/wEAAc4BAAH/AQAB1gEAAf8BAAG1AQAB/xgAAaQCoAH/AaoB3wHU
+        Af8B8AHKAaYB/wHwAfsC/wHwAfsC/wHwAfsC/wHwAfsC/wHwAfsC/wHwAfsC/wMAAv8CAAH/AaoBnwEA
+        Af8BAAGfAQAB/wEAAZ8BAAH/AQABvwEAAf9MAAG4AZ8Bjhn/A/wB/wH6AfcB9gH/AbgBnwGOAf8CAAH2
+        Af8CAAH8Af8CAAH2Af8CAAGCAf8FAAG1AQAB/wEAAbUBAAH/AQABvQEAAf8BAAG9AQAB/wEAAcYBAAH/
+        AQABxgEAAf8BAAHOAQAB/wEAAc4BAAH/AQABzgEAAf8BAAGMAQAB/xgAAaQCoAH/AcAB3AHAAf8B8AHK
+        AaYB/wHwAcoBpgH/AfABygGmAf8B8AHKAaYB/wHwAcoBpgH/AfABygGmAf8BqgG/AaoC/wGfAQAC/wIA
+        Af8BAAGfAQAB/wEAAZ8BAAH/UAABuAGfAY4d/wP8Af8BuAGfAY4B/wHQAboBrQH/AgAB9gH/AgAB9gH/
+        CQABtQEAAf8BAAG1AQAB/wEAAbUBAAH/AQABvQEAAf8BAAG9AQAB/wEAAcYBAAH/AQABxgEAAf8BAAHO
+        AQAB/wEAAc4BAAH/AQABrQEAAf8BAAGUAQAB/yEAAd8BAAH/AQAB3wGqAf8BqgH/AaoB/wHAAdwBwAP/
+        AdQB/wGqAd8BqgH/A4AB/wGqAZ8BAAH/AaoBnwEAAf8BAAG/AQAB/1AAAbgBnwGOIf8BuAGfAY4B/wMA
+        Af8RAAG1AQAB/wEAAa0BAAH/AQABtQEAAf8BAAG1AQAB/wEAAb0BAAH/AQABvQEAAf8BAAHGAQAB/wEA
+        AcYBAAH/AQABzgEAAf8BAAHOAQAB/wEAAc4BAAH/AQABlAEAAf8gAAGqAd8BqgH/AcAB3AHAA/8BzAH/
+        AQABnwEAAf8BqgHfAQAB/wEAAb8BAAH/AaoCAAL/AZ8BAAH/VAABuAGfAY4B/wG4AZ8BjgH/AbgBnwGO
+        Af8BuAGfAY4B/wG4AZ8BjgH/AbgBnwGOAf8BuAGfAY4B/wG4AZ8BjgH/AbgBnwGOAf8BuAGfAY4B/xUA
+        AbUBAAH/AQABnAEAAf8BAAGcAQAB/wEAAZwBAAH/AQABnAEAAf8BAAGlAQAB/wEAAaUBAAH/AQABpQEA
+        Af8BAAGlAQAB/wEAAa0BAAH/AQABrQEAAf8BAAGUAQAB/wEAAYwBAAH/JAABwAHcAcAB/wGqAd8BqgH/
+        AQAB3wEAAf8BAAG/AQAB/1QAAUIBTQE+BwABPgMAASgDAAFAAwABEAMAAQEBAAEBBQABgBcAA/8BAAHA
+        AQEB/wE/Av8CAAHAAQEB/wE/AQABBwIAAcABAQH/AQ8BAAEHAgABwAEBAf8BDwEAAQMCAAHAAQEBnwEH
+        AQABAwIAAcABAQGOAQcBAAEBAgABwAEBAYQBBwEAAQECAAHAAQEBgAEHBAABwAEBAYABBwQAAcABAQGA
+        AQ8BAAEBAgABwAEBAYABHwEAAQECAAHAAQABgAE/AQABAQIAAcABAAGAAR8BgAEDAgABwAEBAYABDwHw
+        AQMCAAHAAQcBgAEHAfgBBwIAAcABDwGAAQMB/gEfAgAL
+</value>
+  </data>
+  <data name="btnModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>604, 1</value>
+  </data>
+  <data name="btnModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 33</value>
+  </data>
+  <data name="btnModel.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="btnReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>604, 69</value>
+  </data>
+  <data name="btnReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 33</value>
+  </data>
+  <data name="btnReport.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Nissan report path:</value>
+  </data>
+  <data name="txtDailyFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 23</value>
+  </data>
+  <data name="btnDailyFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>604, 103</value>
+  </data>
+  <data name="btnDailyFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 33</value>
+  </data>
+  <data name="btnDailyFolder.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>723, 481</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>733, 489</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Sn Length:</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Sn First Spec:</value>
+  </data>
+  <data name="chkMesCon.Text" xml:space="preserve">
+    <value>MES Enable</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Scanner Mode:</value>
+  </data>
+  <data name="chkGJWeb.Text" xml:space="preserve">
+    <value>GJ Sn Check</value>
+  </data>
+  <data name="chkTranData.Text" xml:space="preserve">
+    <value>Tran Data To MES</value>
+  </data>
+  <data name="chkBISn.Text" xml:space="preserve">
+    <value>Check Sn[BURIN]</value>
+  </data>
+  <data name="chkHPSn.Text" xml:space="preserve">
+    <value>Check Sn[HIPOT]</value>
+  </data>
+  <data name="chkATESn.Text" xml:space="preserve">
+    <value>Check Sn[ATE]</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>723, 478</value>
+  </data>
+  <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>733, 488</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>MES</value>
+  </data>
+  <data name="chkPassRate.Text" xml:space="preserve">
+    <value>Enable yield warning</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>Lower alarm yield limit(%):</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>Alarm starting number:</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>Alarm interval(min):</value>
+  </data>
+  <data name="chkClrDay.Text" xml:space="preserve">
+    <value>Day shift reset time:</value>
+  </data>
+  <data name="chkClrNight.Text" xml:space="preserve">
+    <value>Night shift reset time:</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>723, 481</value>
+  </data>
+  <data name="tabPage6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>733, 489</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Yield</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>741, 519</value>
+  </data>
+  <data name="btnExit.Text" xml:space="preserve">
+    <value> Exit(&amp;E)</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value> OK(&amp;O)</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>519</value>
+  </data>
+</root>

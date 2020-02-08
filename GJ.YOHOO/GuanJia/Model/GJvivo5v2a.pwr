@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<CModelPara xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Base>
+    <Model>GJvivo5v2a</Model>
+    <Custom />
+    <Version />
+    <ReleaseName>kp.Lin</ReleaseName>
+    <ReleaseDate>2018/12/8 0:00:00</ReleaseDate>
+  </Base>
+  <OutPut>
+    <ACVolt>220</ACVolt>
+    <ACvMin>180</ACvMin>
+    <ACvMax>240</ACvMax>
+    <Vname>+5</Vname>
+    <Vmin>4.75</Vmin>
+    <Vmax>5.25</Vmax>
+    <LoadMode>0</LoadMode>
+    <LoadVon>3</LoadVon>
+    <LoadSet>1</LoadSet>
+    <LoadMin>0.8</LoadMin>
+    <LoadMax>1.2</LoadMax>
+    <VOffSet>0</VOffSet>
+    <ChkQCM>false</ChkQCM>
+    <QCM>1</QCM>
+    <QCV>5</QCV>
+    <ChkDD>false</ChkDD>
+    <ChkDG>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+    </ChkDG>
+  </OutPut>
+</CModelPara>

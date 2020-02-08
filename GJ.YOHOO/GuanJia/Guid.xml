@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Guid>
+<!--测试工位-->
+<Parameter>
+  <!--设备编号-->
+  <DeviceSn>0000897219090101</DeviceSn>
+  <!--设备GUID-->
+  <DeviceGuid>LOADUP</DeviceGuid>
+  <!--设备名称-->
+  <DeviceName>通电测试位</DeviceName>
+  <!--设备描述-->
+  <DeviceDes></DeviceDes>
+  <!--项目编号-->
+  <ProjectId>AUTO-CSX-YH190901-1</ProjectId>
+  <!--项目名称-->
+  <ProjectName>优琥自动烧机测试线</ProjectName>
+   <!--项目日期-->
+  <ProjectDate>2019-09-01</ProjectDate>
+</Parameter>
+<!--测试工位-->
+<Parameter>
+  <!--设备编号-->
+  <DeviceSn>0000897219090102</DeviceSn>
+  <!--设备GUID-->
+  <DeviceGuid>BURNIN</DeviceGuid>
+  <!--设备名称-->
+  <DeviceName>老化测试位</DeviceName>
+  <!--设备描述-->
+  <DeviceDes></DeviceDes>
+  <!--项目编号-->
+  <ProjectId>AUTO-CSX-YH190901-1</ProjectId>
+  <!--项目名称-->
+  <ProjectName>优琥自动烧机测试线</ProjectName>
+   <!--项目日期-->
+  <ProjectDate>2019-09-01</ProjectDate>
+</Parameter>
+<!--测试工位-->
+<Parameter>
+  <!--设备编号-->
+  <DeviceSn>0000897219090103</DeviceSn>
+  <!--设备GUID-->
+  <DeviceGuid>HIPOT</DeviceGuid>
+  <!--设备名称-->
+  <DeviceName>高压测试位</DeviceName>
+  <!--设备描述-->
+  <DeviceDes></DeviceDes>
+  <!--项目编号-->
+  <ProjectId>AUTO-CSX-YH190901-1</ProjectId>
+  <!--项目名称-->
+  <ProjectName>优琥自动烧机测试线</ProjectName>
+   <!--项目日期-->
+  <ProjectDate>2019-09-01</ProjectDate>
+</Parameter>
+<!--测试工位-->
+<Parameter>
+  <!--设备编号-->
+  <DeviceSn>0000897219090104</DeviceSn>
+  <!--设备GUID-->
+  <DeviceGuid>ATE</DeviceGuid>
+  <!--设备名称-->
+  <DeviceName>ATE测试位</DeviceName>
+  <!--设备描述-->
+  <DeviceDes></DeviceDes>
+  <!--项目编号-->
+  <ProjectId>AUTO-CSX-YH190901-1</ProjectId>
+  <!--项目名称-->
+  <ProjectName>优琥自动烧机测试线</ProjectName>
+   <!--项目日期-->
+  <ProjectDate>2019-09-01</ProjectDate>
+</Parameter>
+<!--测试工位-->
+<Parameter>
+  <!--设备编号-->
+  <DeviceSn>0000897219090105</DeviceSn>
+  <!--设备GUID-->
+  <DeviceGuid>UNLOAD</DeviceGuid>
+  <!--设备名称-->
+  <DeviceName>自动下机位</DeviceName>
+  <!--设备描述-->
+  <DeviceDes></DeviceDes>
+  <!--项目编号-->
+  <ProjectId>AUTO-CSX-YH190901-1</ProjectId>
+  <!--项目名称-->
+  <ProjectName>优琥自动烧机测试线</ProjectName>
+   <!--项目日期-->
+  <ProjectDate>2019-09-01</ProjectDate>
+</Parameter>
+</Guid>

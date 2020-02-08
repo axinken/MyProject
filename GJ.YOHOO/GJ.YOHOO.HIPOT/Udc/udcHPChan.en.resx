@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 21</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Product number:</value>
+  </data>
+  <data name="cmbUUTNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 21</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 27</value>
+  </data>
+  <data name="labNo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="labId1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="labNo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="labId2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="labNo3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="labId3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="labNo4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="labId4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="labSlot1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 32</value>
+  </data>
+  <data name="labSlot1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 63</value>
+  </data>
+  <data name="labSlot2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 94</value>
+  </data>
+  <data name="labSlot3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 125</value>
+  </data>
+  <data name="labSlot4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 32</value>
+  </data>
+  <data name="labSlot5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 63</value>
+  </data>
+  <data name="labSlot6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 94</value>
+  </data>
+  <data name="labSlot7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 125</value>
+  </data>
+  <data name="labSlot8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 32</value>
+  </data>
+  <data name="labSlot9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 63</value>
+  </data>
+  <data name="labSlot10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 94</value>
+  </data>
+  <data name="labSlot11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 125</value>
+  </data>
+  <data name="labSlot12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 32</value>
+  </data>
+  <data name="labSlot13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 63</value>
+  </data>
+  <data name="labSlot14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 94</value>
+  </data>
+  <data name="labSlot15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labSlot16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 125</value>
+  </data>
+  <data name="labSlot16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="labHpId1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="labHpId2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="labHpId3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="labHpId4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="cmbIOChan1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 35</value>
+  </data>
+  <data name="cmbIOChan1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbIOChan2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 66</value>
+  </data>
+  <data name="cmbIOChan2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbIOChan3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 97</value>
+  </data>
+  <data name="cmbIOChan3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbIOChan4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 128</value>
+  </data>
+  <data name="cmbIOChan4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbIOChan5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 35</value>
+  </data>
+  <data name="cmbIOChan5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbIOChan6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 66</value>
+  </data>
+  <data name="cmbIOChan6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbIOChan7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 97</value>
+  </data>
+  <data name="cmbIOChan7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbIOChan8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 128</value>
+  </data>
+  <data name="cmbIOChan8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbIOChan9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 35</value>
+  </data>
+  <data name="cmbIOChan9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbIOChan10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 66</value>
+  </data>
+  <data name="cmbIOChan10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbIOChan11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 97</value>
+  </data>
+  <data name="cmbIOChan11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbIOChan12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 128</value>
+  </data>
+  <data name="cmbIOChan12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbIOChan13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 35</value>
+  </data>
+  <data name="cmbIOChan13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 21</value>
+  </data>
+  <data name="cmbIOChan14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 66</value>
+  </data>
+  <data name="cmbIOChan14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 21</value>
+  </data>
+  <data name="cmbIOChan15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 97</value>
+  </data>
+  <data name="cmbIOChan15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 21</value>
+  </data>
+  <data name="cmbIOChan16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 128</value>
+  </data>
+  <data name="cmbIOChan16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 21</value>
+  </data>
+  <data name="cmbHpChan1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 35</value>
+  </data>
+  <data name="cmbHpChan1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 66</value>
+  </data>
+  <data name="cmbHpChan2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 97</value>
+  </data>
+  <data name="cmbHpChan3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 128</value>
+  </data>
+  <data name="cmbHpChan4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 35</value>
+  </data>
+  <data name="cmbHpChan5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 66</value>
+  </data>
+  <data name="cmbHpChan6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 97</value>
+  </data>
+  <data name="cmbHpChan7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 128</value>
+  </data>
+  <data name="cmbHpChan8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 35</value>
+  </data>
+  <data name="cmbHpChan9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 66</value>
+  </data>
+  <data name="cmbHpChan10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 97</value>
+  </data>
+  <data name="cmbHpChan11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 128</value>
+  </data>
+  <data name="cmbHpChan12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 35</value>
+  </data>
+  <data name="cmbHpChan13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 66</value>
+  </data>
+  <data name="cmbHpChan14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 97</value>
+  </data>
+  <data name="cmbHpChan15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="cmbHpChan16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 128</value>
+  </data>
+  <data name="cmbHpChan16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 202</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 233</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 233</value>
+  </data>
+</root>
